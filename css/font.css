@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "Uni Sans";
+    src: url(../font/Uni\ Sans\ Heavy.otf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Uni Sans";
+    src: url(../font/Uni\ Sans\ Thin.otf);
+    font-weight: normal;
+}
