@@ -23,6 +23,25 @@
     gap: 3rem;
 }
 
+.navbar .navbar-nav.mid .nav-item .nav-link{
+    position: relative;
+}
+
+.navbar .navbar-nav.mid .nav-item .nav-link:after{
+    content: "";
+    position: absolute;
+    background-color: rgba(126, 175, 21, 1);
+    height: 1px;
+    width: 0%;
+    left: 0;
+    bottom: 0;
+    transition: 0.3s;
+}
+
+.navbar .navbar-nav.mid .nav-item .nav-link:hover:after{
+    width: 100%;
+}
+
 .navbar .navbar-nav.mid .nav-item .nav-link.active1{
     font-weight: 600;
     color: rgba(126, 175, 21, 1);
