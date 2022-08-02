@@ -20,6 +20,10 @@
     padding: 0rem;
 }
 
+.bb{
+    padding: 0;
+}
+
 /* Middle Navigation Settings */
 .navbar .navbar-nav.mid{
     gap: 3rem;
@@ -94,9 +98,10 @@
 @media only screen and (max-width:992px) {
 
     .navbar{
-        height: 20vh;
+        padding: 0.75rem 1.25rem;
 
-        font-size: 1.5rem;
+        height: 10vh;
+        font-size: 1rem;
     }
 
     .navbar .navbar-nav.mid{
@@ -109,15 +114,28 @@
 
     .navbar .nav--holder{
         position: absolute;
-        background-color: pink;
+        background-color: black;
         z-index: -1;
 
         padding: 4rem 0rem 3.5rem 0rem;
         width: 100%;
-        height: 80vh;
+        height: 90vh;
 
         left: 0;
-        top: -80vh;
+        top: -90vh;
         transition: 0.7s;
+
+        border-radius: 0 0 10rem 10rem;
+    }
+
+    .navbar .navbar-nav.mid .nav-item .nav-link:hover:after{
+        width: 0%;
+    }
+}
+
+@media only screen and (max-width:576px) {
+
+    .navbar .navbar-nav.mid{
+        margin-left: 1.25rem;
     }
 }

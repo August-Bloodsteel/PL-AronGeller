@@ -1,7 +1,7 @@
 <!-- ============================ Start Navbar Section ============================ -->
 
 <nav class="navbar navbar-expand-lg">
-  <div class="container-fluid">
+  <div class="container-fluid bb">
 
     <!-- Navbar Logo -->
     <div class="nav--logo">
@@ -85,10 +85,12 @@
 
     if(btnNav.classList == "btn--nav d-block d-lg-none toggled"){
       btnNav.innerText = "CLOSE"
-      navHolder.style.top = "20vh"
+      navHolder.style.top = "10vh"
+      navHolder.style.borderRadius = "0rem 0rem 0rem 0rem"
     } else {
       btnNav.innerText = "MENU"
-      navHolder.style.top = "-80vh"
+      navHolder.style.top = "-90vh"
+      navHolder.style.borderRadius = "0rem 0rem 25% 25%"
     }
   }
 
