@@ -81,17 +81,13 @@
 
 /* Responsive Holder */
 .navbar .nav--holder{
-    width:77.5%;
+    width:100%;
 }
 
 @media only screen and (max-width:1200px) {
 
     .navbar{
         padding: 1.375rem 2.5rem;
-    }
-
-    .navbar .nav--holder{
-        width: 87.5%;
     }
 }
 
