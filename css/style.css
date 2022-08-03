@@ -3,7 +3,10 @@
 @import url(./navbar.css);
 
 @import url(./header.css);
+
 @import url(./porto.css);
+
+@import url(./project.css);
 
 html,body{
     margin: 0%;

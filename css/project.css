@@ -1,0 +1,44 @@
+.project
+{
+    margin-top: 72px;
+}
+
+.project .projectitle
+{
+    color: white;
+    margin-bottom: 48px;
+}
+.project .projectitle h1
+{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 42px;
+}
+.project .wraptabs .wrapnav .nav .nav-item
+{
+    margin-bottom: 48px;
+}
+
+.project .wraptabs .wrapnav .nav .nav-item .nav-link
+{
+    width: 285px;
+    height: 45px;
+    background: #0C0C0C;
+    border: 1px solid #7EAF15;
+    color: white;
+}
+.project .wraptabs .wrapnav .nav .nav-item .nav-link.active
+{
+    width: 285px;
+    height: 45px;
+    background: #7EAF15;
+    border-radius: 0%;
+    color: #0C0C0C;
+}
+
+.project .wraptabs .wrapnav .nav #link1
+{
+    margin-right: 20px;
+}
