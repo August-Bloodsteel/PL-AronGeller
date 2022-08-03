@@ -1,0 +1,31 @@
+.footer{
+    background-color: rgba(126, 175, 21, 1);
+    padding: 1.5rem 7.5rem;
+}
+
+.footer .icons ul{
+    margin: 0;
+    padding: 0;
+}
+
+.footer .icons ul li{
+    list-style: none;
+}
+
+.footer .icons ul li > a{
+    color: black;
+}
+
+.footer .icons ul li .iconify{
+    font-size: 1.5rem;
+}
+
+@media only screen and (max-width:992px) {
+    .footer{
+        padding: 1.5rem 4rem;
+    }
+
+    .footer .icons ul li .iconify{
+        font-size: 1.125rem;
+    }
+}

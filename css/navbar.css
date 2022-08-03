@@ -11,6 +11,8 @@
     font-size: 1rem;
     line-height: 1.375rem;
     border-bottom: 1px solid rgba(255, 255, 255, 0.75);
+
+    position: relative;
 }
 
 .navbar .navbar-nav .nav-item .nav-link{
@@ -18,9 +20,32 @@
     padding: 0rem;
 }
 
+.bb{
+    padding: 0;
+}
+
 /* Middle Navigation Settings */
 .navbar .navbar-nav.mid{
     gap: 3rem;
+}
+
+.navbar .navbar-nav.mid .nav-item .nav-link{
+    position: relative;
+}
+
+.navbar .navbar-nav.mid .nav-item .nav-link:after{
+    content: "";
+    position: absolute;
+    background-color: rgba(126, 175, 21, 1);
+    height: 1px;
+    width: 0%;
+    left: 0;
+    bottom: 0;
+    transition: 0.3s;
+}
+
+.navbar .navbar-nav.mid .nav-item .nav-link:hover:after{
+    width: 100%;
 }
 
 .navbar .navbar-nav.mid .nav-item .nav-link.active1{
@@ -36,4 +61,81 @@
 
 .navbar .navbar-nav.right .nav-item .nav-link.active2{
     font-weight: 600;
+}
+
+/* Navigation Button */
+.navbar .btn--nav{
+    width: auto;
+    height: auto;
+    background-color: transparent;
+
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.313rem;
+    color: #FFFFFF;
+
+    border: none;
+}
+
+/* Responsive Holder */
+.navbar .nav--holder{
+    width:77.5%;
+}
+
+@media only screen and (max-width:1200px) {
+
+    .navbar{
+        padding: 1.375rem 2.5rem;
+    }
+
+    .navbar .nav--holder{
+        width: 87.5%;
+    }
+}
+
+@media only screen and (max-width:992px) {
+
+    .navbar{
+        padding: 0.75rem 1.25rem;
+
+        height: 10vh;
+        font-size: 1rem;
+    }
+
+    .navbar .navbar-nav.mid{
+        gap: 1.5rem;
+    }
+
+    .navbar .navbar-nav.right{
+        font-size: 1rem;
+    }
+
+    .navbar .nav--holder{
+        position: absolute;
+        background-color: black;
+        z-index: -1;
+
+        padding: 4rem 0rem 3.5rem 0rem;
+        width: 100%;
+        height: 90vh;
+
+        left: 0;
+        top: -90vh;
+        transition: 0.7s;
+
+        border-radius: 0 0 10rem 10rem;
+    }
+
+    .navbar .navbar-nav.mid .nav-item .nav-link:hover:after{
+        width: 0%;
+    }
+}
+
+@media only screen and (max-width:576px) {
+
+    .navbar .navbar-nav.mid{
+        margin-left: 1.25rem;
+    }
 }
