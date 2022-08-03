@@ -28,6 +28,11 @@
     background: #0C0C0C;
     border: 1px solid #7EAF15;
     color: white;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
 }
 .project .wraptabs .wrapnav .nav .nav-item .nav-link.active
 {
@@ -41,4 +46,85 @@
 .project .wraptabs .wrapnav .nav #link1
 {
     margin-right: 20px;
+}
+
+.project .wrap-menu  .tab-content .tab-pane .villa h1
+{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 31px;
+    color: #7EAF15;
+}
+
+.project .wrap-menu .tab-content .tab-pane .villa .project1 .villaimg1 img
+{
+    width: 285px;
+    height: 184px;
+}
+
+.project .wrap-menu .tab-content .tab-pane .villa .project1 .villaimg2 img
+{
+    width: 590px;
+    height: 389px;
+}
+.project .wrap-menu .tab-content .tab-pane .villa .project1
+{
+    width: 1200px;
+    margin-bottom: 48px;
+}
+
+.project .wrap-menu .tab-content .tab-pane .villa .project1 .villaimg1 #villa1
+{
+    margin-bottom: 20px;
+    margin-right: 17px;
+}
+.project .wrap-menu .tab-content .tab-pane .villa .project1 .villaimg1 #villa2
+{
+    margin-bottom: 20px;
+}
+.project .wrap-menu .tab-content .tab-pane .villa .project1 .villaimg1 #villa3
+{
+    margin-right: 17px;
+}
+.project .wrap-menu .tab-content .tab-pane .villa .project1 .villaimg1 #villa4
+{
+
+}
+
+.project .wrap-menu .tab-content .tab-pane .villa .villatext
+{
+    width: 1200px;
+    color: white;
+}
+
+.project .wrap-menu .tab-content .tab-pane .villa .villatext .villatext1 span
+{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+
+}
+
+.project .wrap-menu .tab-content .tab-pane .villa .villatext .villatext1
+{
+    margin-right: 51px;
+    width: 559px;
+}
+
+
+.project .wrap-menu .tab-content .tab-pane .villa .villatext .villatext2
+{
+    width: 559px;
+}
+.project .wrap-menu .tab-content .tab-pane .villa .villatext .villatext2 span
+{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 32px;
 }
