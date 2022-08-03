@@ -4,6 +4,10 @@
 
 @import url(./footer.css);
 
+@import url(./porto.css);
+
+@import url(./project.css);
+
 html,body{
     margin: 0%;
     box-sizing: border-box;
