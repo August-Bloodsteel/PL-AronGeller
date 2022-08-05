@@ -31,7 +31,6 @@
 
     <div id="navbar" class="fixed-top"></div>
     <div id="header"></div>
-    <div id="porto"></div>
     <div id="footer"></div>
 
     <!-- =========================== End Include Content Area =========================== -->
@@ -44,15 +43,19 @@
     <!-- Bootsrap JS -->
     <script src="./js/bootstrap.min.js"></script>
 
-    <!-- Custom Script -->
-    <script src="./js/custom.js" defer></script>
-
     <!-- Iconify -->
     <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
     <script src="https://kit.fontawesome.com/29b8d7ab6a.js"crossorigin="anonymous"></script>
 
     <!-- Custom Script -->
     <script>
+
+        $(function(){
+            $("#navbar").load("navbar.html");
+            $("#header").load("header.html");
+            $("#footer").load("footer.html");
+        });
+
     </script>
     
     <!-- =========================== End Scripts Area =========================== -->

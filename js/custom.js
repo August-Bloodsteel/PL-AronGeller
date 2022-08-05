@@ -1,24 +1,29 @@
 $(function(){
     $("#navbar").load("navbar.html");
     $("#header").load("header.html");
-    $("#porto").load("porto.html");
-    $("#produk").load("produk.html");
-    $("#testimoni").load("testimoni.html");
-    $("#help").load("help.html");
     $("#footer").load("footer.html");
 });
 
-let home = document.getElementById("home")
-let work = document.getElementById("work")
-let porto = document.getElementById("porto")
+let index = document.getElementById("index")
+let works = document.getElementById("works")
+let port0 = document.getElementById("porto")
 let archi = document.getElementById("archi")
 let review = document.getElementById("review")
 let news = document.getAnimations("news")
 let contact = document.getElementById("contact")
 
-let navLink = document.getElementById("nav-link")
+let xhr = new XMLHttpRequest()
+let loader = document.getElementById("loader")
 
-navLink.click(function(){
-    navLink.classList("nav-link")
-    this.classList("nav-link active1")
-})
+function indexPage(){
+    xhr.onload = function() {
+        if (this.status === 200){
+            loader.innerHTML = xhr.responseText;
+        } else {
+            console.log("Something Went Wrong")
+        }
+    };
+
+    xhr.open('GET', 'footer.html');
+    xhr.send
+}
