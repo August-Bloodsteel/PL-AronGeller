@@ -15,7 +15,7 @@
 }
 .wrapline .line #line3
 {
-    left: 860px; 
+    left: 864px; 
 }
 .wrapline .line #line4
 {
@@ -82,6 +82,27 @@
     line-height: 31px;
     color: #7EAF15;
 }
+.project .wrap-menu .tab-content .tab-pane #natura
+{
+    margin-top: 120px;
+}
+.project .wrap-menu .tab-content .tab-pane #saint
+{
+    margin-top: 120px;
+}
+.project .wrap-menu .tab-content .tab-pane #fashion
+{
+    margin-top: 120px;
+}
+
+.project .wrap-menu .tab-content .tab-pane .villa .project1
+{
+    width: 1200px;
+    margin-bottom: 48px;
+}
+
+
+/* ubud */
 .project .wrap-menu .tab-content .tab-pane .villa .project1 .villaimg1 img
 {
     width: 285px;
@@ -93,12 +114,6 @@
     width: 590px;
     height: 389px;
 }
-.project .wrap-menu .tab-content .tab-pane .villa .project1
-{
-    width: 1200px;
-    margin-bottom: 48px;
-}
-
 .project .wrap-menu .tab-content .tab-pane .villa .project1 .villaimg1 #villa1
 {
     margin-bottom: 20px;
@@ -112,10 +127,31 @@
 {
     margin-right: 17px;
 }
-.project .wrap-menu .tab-content .tab-pane .villa .project1 .villaimg1 #villa4
-{
+/* end ubud */
 
+/* natura */
+.project .wrap-menu .tab-content .tab-pane .villa .project1 .naturaimg1 img
+{
+    width: 590px;
+    height: 543px;
 }
+
+.project .wrap-menu .tab-content .tab-pane .villa .project1 .naturaimg2 img
+{
+    width: 590px;
+    height: 261px;
+}
+
+.project .wrap-menu .tab-content .tab-pane .villa .project1 .naturaimg1 #natura1
+{
+    margin-right: 17px;
+}
+.project .wrap-menu .tab-content .tab-pane .villa .project1 .naturaimg2 #natura2
+{
+    margin-bottom: 20px;
+}
+
+/* end natura */
 
 .project .wrap-menu .tab-content .tab-pane .villa .villatext
 {
