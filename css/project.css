@@ -1,3 +1,28 @@
+.wrapline .line .line1
+{
+    width: 0.1%;
+    background: rgba(255, 255, 255, 0.5);
+    height: 100%; 
+    position: absolute;
+    left: -50px; 
+    top: 0px;
+    z-index: 1;
+}
+
+.wrapline .line #line2
+{
+    left: 760px; 
+}
+.wrapline .line #line3
+{
+    left: 860px; 
+}
+.wrapline .line #line4
+{
+    left: 980px; 
+}
+
+
 .project
 {
     margin-top: 72px;
@@ -57,7 +82,6 @@
     line-height: 31px;
     color: #7EAF15;
 }
-
 .project .wrap-menu .tab-content .tab-pane .villa .project1 .villaimg1 img
 {
     width: 285px;
@@ -111,16 +135,16 @@
 
 .project .wrap-menu .tab-content .tab-pane .villa .villatext .villatext1
 {
-    margin-right: 51px;
-    width: 559px;
+    margin-right: 20px;
+    width: 100%;
 }
 
 
 .project .wrap-menu .tab-content .tab-pane .villa .villatext .villatext2
 {
-    width: 559px;
+    width: 100%;
 }
-.project .wrap-menu .tab-content .tab-pane .villa .villatext .villatext2 span
+.project .wrap-menu .tab-content .tab-pane .villa .villatext .villatext2 table tr td
 {
     font-family: 'IBM Plex Sans';
     font-style: normal;
