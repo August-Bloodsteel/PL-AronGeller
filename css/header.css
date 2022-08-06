@@ -1,36 +1,24 @@
-/* .header{
-    position: relative;
-    height: 100vh;
-    width: 100%;
-    background-image: url(../img/banner1.png);
-    background-size: cover;
-    background-repeat: no-repeat;
 
-    border-bottom: 1px solid rgba(255, 255, 255, 0.5);;
+
+.header .banner1
+{
+
 }
-
-.banner--overlay{
-    position: absolute;
-    top: 0;
-    left: 0;
-    background: rgba(0, 0, 0, 0.6);
-
-    height: 100vh;
-    width: 100%;
-} */
-
 .header .banner1 img
 {
-    width: 100vw;
+    width: 100%;
     height: auto;
 }
+.header .wrapbanner23
+{
 
-.header .banner2 img
+}
+.header .wrapbanner23 .banner2 img
 {
     width: 100%;
     height: auto;
 }
-.header .banner2
+.header .wrapbanner23 .banner2
 {
     top: -150px;
     position: relative;
@@ -38,12 +26,12 @@
     padding: 0px;
 }
 
-.header .banner3
+.header .wrapbanner23  .banner3
 {
     margin: 0px;
     padding: 0px;
 }
-.header .banner3 img
+.header .wrapbanner23  .banner3 img
 {
     width: 100%;
     height: auto;
@@ -57,36 +45,33 @@
 .header .banner4
 {
     position: relative;
-    top: -600px;
+    top: -428px;
 }
 
-
-
-/* .header table .banner1 .wrapimg1
-{
-    width: 100vh;
-}
-.header table .banner1 .wrapimg1 img
+.header .banner5 img
 {
     width: 100%;
     height: auto;
 }
-.header table .banner2
-{
-    width: 50px;
-    background-color: brown;
-}
-.header table .banner3
-{
-    background-color: blue;
-}
-.header table .banner2 img
-{
-    width: 59.375vw;
-    height: auto;
-}
-.header table .banner3 img
+.header .banner6 img
 {
     width: 100%;
     height: auto;
-} */
+}
+.header .banner7 img
+{
+    width: 100%;
+    height: auto;
+}
+.header .banner8 img
+{
+    width: 100%;
+    height: auto;
+}
+
+.header .wrapbanner678
+{
+    position: relative;
+    top: -450px;
+}
+
