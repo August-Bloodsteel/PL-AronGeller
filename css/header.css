@@ -1,4 +1,4 @@
-.header{
+/* .header{
     position: relative;
     height: 100vh;
     width: 100%;
@@ -17,4 +17,76 @@
 
     height: 100vh;
     width: 100%;
+} */
+
+.header .banner1 img
+{
+    width: 100vw;
+    height: auto;
 }
+
+.header .banner2 img
+{
+    width: 100%;
+    height: auto;
+}
+.header .banner2
+{
+    top: -150px;
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+}
+
+.header .banner3
+{
+    margin: 0px;
+    padding: 0px;
+}
+.header .banner3 img
+{
+    width: 100%;
+    height: auto;
+}
+
+.header .banner4 img
+{
+    width: 100%;
+    height: auto;
+}
+.header .banner4
+{
+    position: relative;
+    top: -600px;
+}
+
+
+
+/* .header table .banner1 .wrapimg1
+{
+    width: 100vh;
+}
+.header table .banner1 .wrapimg1 img
+{
+    width: 100%;
+    height: auto;
+}
+.header table .banner2
+{
+    width: 50px;
+    background-color: brown;
+}
+.header table .banner3
+{
+    background-color: blue;
+}
+.header table .banner2 img
+{
+    width: 59.375vw;
+    height: auto;
+}
+.header table .banner3 img
+{
+    width: 100%;
+    height: auto;
+} */
