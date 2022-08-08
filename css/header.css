@@ -16,12 +16,42 @@
 }
 .header .wrapbanner23 .banner2
 {
-    top: -150px;
-    position: relative;
-    margin: 0px;
-    padding: 0px;
+    margin-top: -150px;
+}
+.header .wrapbanner23 .headernum
+{
+    position: absolute; 
+    width: 65.9vw; 
+    background: linear-gradient(270deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0) 100%);
+    z-index: 4;
+    margin-top: -150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
+.header .wrapbanner23 .headnumber span
+{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 62px;
+    color: #FFFFFF;
+
+}
+.header .wrapbanner23 .headnumber h5
+{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+}
+.header .wrapbanner23 #headnum1
+{
+    margin-right: 48px;
+}
 .header .wrapbanner23  .banner3
 {
     margin-bottom: -200px;
@@ -89,10 +119,7 @@
     margin-top: -3px;
 }
 
-.header .headertext
-{
 
-}
 .header .headertext .wrap-design .design h1
 {
     font-family: 'Uni Sans';
