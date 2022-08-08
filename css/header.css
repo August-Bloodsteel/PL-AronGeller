@@ -89,3 +89,51 @@
     margin-top: -3px;
 }
 
+.header .headertext
+{
+
+}
+.header .headertext .wrap-design .design h1
+{
+    font-family: 'Uni Sans';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 58px;
+    color: #FFFFFF;
+    text-shadow: 1px 1px  black;
+}
+
+.header .headertext .wrap-design .design
+{
+    margin-left: 50px;
+
+}
+
+.header .headertext .wrap-design .design .hit a
+{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    text-decoration: none;
+    color: #FFFFFF;
+    position: relative;
+    top: 1px;
+}
+.header .headertext .wrap-design .design .hit
+{
+    margin-top: 24px;
+    width: 155px;
+    height: 48px;    
+    background: rgba(12, 12, 12, 0.5);
+    border: 1px solid #FFFFFF;
+    transition: 0.5s;
+}
+.header .headertext .wrap-design .design .hit:hover
+{
+    width: 171px;
+    background: #7EAF15;
+    animation: 0.5s;
+}
