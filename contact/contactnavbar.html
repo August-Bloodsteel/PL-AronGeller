@@ -1,0 +1,103 @@
+<!-- ============================ Start Navbar Section ============================ -->
+
+<nav class="navbar navbar-expand-lg">
+  <div class="container-fluid bb">
+
+    <!-- Navbar Logo -->
+    <div class="nav--logo d-flex d-lg-none">
+      <a class="navbar--brand" href="../index.html"><img src="../img/logo.svg" alt="Aron Geller" class="logo"></a>
+    </div>
+
+    <!-- Container For Responsive -->
+    <div id="navHolder" class="nav--holder d-flex flex-lg-row flex-column justify-content-between align-items-start align-items-sm-center">
+      <!-- For XL  -->
+      <div class="nav--logo d-lg-flex d-none">
+        <a class="navbar--brand" href="../index.html"><img src="../img/logo.svg" alt="Aron Geller" class="logo"></a>
+      </div>
+      <!-- Middle Navigation -->
+      <div class="content--nav">
+
+        <ul class="navbar-nav mid d-flex align-items-start align-items-sm-center">
+                
+          <li class="nav-item">
+            <a class="nav-link" id="index" href="../index.html">Home</a>
+          </li>
+    
+          <li class="nav-item">
+            <a class="nav-link" id="works" href="#">Work</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" id="porto" href="#">Portofolio</a>
+          </li>
+      
+          <li class="nav-item">
+            <a class="nav-link" id="archi" href="#">Architecture</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" id="review" href="#">Reviews</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" id="news" href="#">News</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link  active1" id="contact" href="#">Contact</a>
+          </li>
+          
+        </ul>
+    
+      </div>
+
+      <!-- Language Navigation -->
+      <div class="lang--nav align-self-center">
+
+        <ul class="navbar-nav right d-flex flex-row">
+            
+          <li class="nav-item">
+            <a class="nav-link active2" href="#">ENG</a>
+          </li>
+    
+          <li class="nav-item">
+            <a class="nav-link" href="#">RUS</a>
+          </li>
+        
+        </ul>
+
+      </div>      
+    </div>
+    
+
+    <button class="btn--nav d-block d-lg-none" id="btnNav" onclick="btnChange()"></button>
+   
+  </div>
+</nav>
+<!-- ============================ End Navbar Section ============================ -->
+
+<!-- ============================ Start Script Area ============================ -->
+
+<script>
+
+  let btnNav = document.getElementById("btnNav")
+  let navHolder = document.getElementById("navHolder")
+  btnNav.innerText = "MENU"
+
+  function btnChange(){
+    btnNav.classList.toggle ("toggled")
+
+    if(btnNav.classList == "btn--nav d-block d-lg-none toggled"){
+      btnNav.innerText = "CLOSE"
+      navHolder.style.top = "10vh"
+      navHolder.style.borderRadius = "0rem 0rem 0rem 0rem"
+    } else {
+      btnNav.innerText = "MENU"
+      navHolder.style.top = "-90vh"
+      navHolder.style.borderRadius = "0rem 0rem 50% 50%"
+    }
+  }
+
+</script>
+
+<!-- ============================ End Script Area ============================ -->
