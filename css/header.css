@@ -1,3 +1,4 @@
+/* General Header Settings */
 .header{
     position: relative;
     height: 100vh;
@@ -9,6 +10,15 @@
     border-bottom: 1px solid rgba(255, 255, 255, 0.5);;
 }
 
+.np{
+    padding: 0;
+}
+
+.container{
+    height: 100%;
+}
+
+/* Overlay On Banner Background */
 .banner--overlay{
     position: absolute;
     top: 0;
@@ -16,5 +26,116 @@
     background: rgba(0, 0, 0, 0.6);
 
     height: 100vh;
+    width: 100%;
+}
+
+/* Banner Tittle */
+.banner--title{
+    font-family: 'Uni Sans';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 3.625rem;
+
+    color: #FFFFFF;
+    width: 31rem;
+
+    text-shadow: 16px 16px 8px rgba(0, 0, 0, 0.08);
+    position: relative;
+    margin-bottom: 1.5rem;
+    z-index: 1;
+}
+
+/* Banner Arrow */
+.banner--arrow{
+    position: absolute;
+    top: -56px;
+    right: 0;
+
+    z-index: -1;
+}
+
+/* Banner Button */
+.banner--btn{
+
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.313rem;
+
+    height: 3rem;
+    width: 9.75rem;
+    
+    background: rgba(12, 12, 12, 0.5);
+    border: 1px solid #FFFFFF;
+    z-index: 1;
+    transition: 0.7s;
+    text-decoration: none;
+    color: white;
+}
+
+.banner--btn .iconify{
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+    transition: 0.7s;
+
+    color: #FFFFFF;
+}
+
+.banner--btn:hover{
+    width: 11rem;
+    background-color: rgba(126, 175, 21, 1);
+    color: #FFFFFF;
+}
+
+/* Banner Number */
+.banner--num{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    right: 0;
+}
+.num--holder{
+    padding: 1.5rem 3.5rem 1rem;
+
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.num--holder .num1{
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 3.875rem;
+}
+
+.num--holder .num--ex{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.num--holder .num--ex.ex1{
+    width: 9.5rem;
+}
+
+.num--holder .num--ex.ex3{
+    width: 11.375rem;
+}
+
+.num--holder .num--ex.ex5{
+    width: 9.188rem;
+}
+
+/* Hompage */
+
+.row{
+width: 100%;
+}
+
+.hp--img{
     width: 100%;
 }
