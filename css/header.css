@@ -13,7 +13,7 @@
 .header .wrapbanner23 .banner2 img
 {
     width: 100%;
-    height: 59.3vh;
+    height: 59.5vh;
 }
 .header .wrapbanner23 .banner2
 {
@@ -112,16 +112,7 @@
 {
     margin-right: 48px;
 }
-.header .wrapbanner23  .banner3
-{
-    margin-bottom: -200px;
-    padding: 0px;
-}
-.header .wrapbanner23  .banner3 img
-{
-    width: 100%;
-    height: auto;
-}
+
 
 .header .wrapbanner23  .banner45 img
 {
@@ -134,8 +125,6 @@
     position: absolute;
     margin-left: 19vw;
     margin-top: -20vh;
-
-
 }
 .header .wrapbanner23  .banner45 .arrow2 img
 {
