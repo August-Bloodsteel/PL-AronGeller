@@ -4,7 +4,7 @@
     background: rgba(255, 255, 255, 0.5);
     height: 100%; 
     position: absolute;
-    left: -50px; 
+    left: 58px; 
     top: 0px;
     z-index: 1;
 }
@@ -290,4 +290,21 @@
     margin-top: 110px;
 }
 /* end elevator */
+.project .wrap-menu .tab-content .tab-pane .villa .project2 .installimg1 img
+{
+    width: 387px;
+    height: 540px;
+}
+
+.project .wrap-menu .tab-content .tab-pane .villa .project2 .installimg1 #install1
+{
+    margin-right: 15px;
+}
+.project .wrap-menu .tab-content .tab-pane .villa .project2 .installimg1 #install2
+{
+    margin-right: 15px;
+}
+/* install */
+
+/* end install */
 /* end project 2 */
