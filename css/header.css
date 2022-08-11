@@ -47,6 +47,69 @@
 
     margin-top: 0px;
 }
+.header .wrapbanner23 .banner2 .change .life .see .iconify
+{
+    font-size: 3vh;
+}
+.header .wrapbanner23 .banner2 .change .life .see a
+{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.2vh;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.header .wrapbanner23 .banner2 .change .life .see
+{
+    width: 11.197916666666666vw;
+    height: 6.648199445983379vh;
+    background: rgba(12, 12, 12, 0.5);
+    border: 1px solid #FFFFFF;
+    transition: 0.5s;
+    margin-top: 5vh;
+}
+
+.header .wrapbanner23 .banner2 .change .life .see:hover
+{
+    width: 12vw;
+    background: #7EAF15;
+    border: 1px solid #7EAF15
+}
+.header .wrapbanner23 .banner2 .change .life .see:hover a
+{
+    color: black;
+}
+
+.header .wrapbanner23 .banner2 .change .life
+{
+    margin-left: 19vw;
+}
+.header .wrapbanner23 .banner2 .change
+{
+    position: absolute; 
+    margin-top: 64vh; 
+    width: 50%;
+}
+.header .wrapbanner23 .banner2 .change img
+{
+    position: absolute; 
+    width: 7.975911458333333vw;
+    height: 12.930747922437673vh;
+    margin-left: 17vw;
+    margin-top: -2.1vh;
+}
+.header .wrapbanner23 .banner2 .change h1
+{
+    font-family: 'Uni Sans';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 6vh;
+    line-height: 58px;
+    color: #FFFFFF;
+}
 .header .design .textdesign .headernum
 {
 
@@ -93,6 +156,42 @@
     height: auto;
 }
 
+.header .wrapbanner23  .banner45 .arrow2 
+{
+    position: absolute;
+    margin-left: 19vw;
+    margin-top: -20vh;
+
+
+}
+.header .wrapbanner23  .banner45 .arrow2 img
+{
+    width: 24vw;
+    height: 35vh;
+}
+
+.header .wrapbanner567 .banner5 .wrapaward
+{
+    position: absolute;
+    width: 50%;
+    margin-top: 11vh;
+}
+
+.header .wrapbanner567 .banner5 .wrapaward .award h1
+{
+    font-family: 'Uni Sans';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 6vh;
+    line-height: 58px;
+    color: #FFFFFF;
+}
+
+.header .wrapbanner567 .banner5 .wrapaward .award img
+{
+    width: 12.8vw;
+    height: 5.6vh;
+}
 .header .wrapbanner567 .banner5 img
 {
     width: 100%;
@@ -103,6 +202,50 @@
 {
     width: 100%;
     height: auto;
+}
+
+.header .wrapbanner567 .banner67 .arsitek
+{
+    position: absolute;
+    margin-top: 66vh;
+    margin-left: 2.6vw;
+}
+
+.header .wrapbanner567 .banner67 .arsitek .ture
+{
+    width: 11vw;
+    height: 6.6vh;
+    background: rgba(12, 12, 12, 0.5);
+    border: 1px solid #FFFFFF;
+    transition: 0.5s;
+}
+
+.header .wrapbanner567 .banner67 .arsitek .ture a
+{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.2vh;
+    line-height: 21px;
+    color: #FFFFFF;
+    transition: 0.5s;
+    text-decoration: none;
+}
+.header .wrapbanner567 .banner67 .arsitek .ture .iconify
+{
+    font-size: 3.3vh;
+}
+
+.header .wrapbanner567 .banner67 .arsitek .ture:hover
+{
+    width: 12vw;
+    background: #7EAF15;
+    border: 1px solid #7EAF15
+}
+
+.header .wrapbanner567 .banner67 .arsitek .ture:hover a
+{
+    color: black;
 }
 
 .header .wrapbanner45 .life
@@ -135,14 +278,12 @@
 
 
 
-
-
 .header .headertext .wrap-design .design h1
 {
     font-family: 'Uni Sans';
     font-style: normal;
     font-weight: 900;
-    font-size: 48px;
+    font-size: 6vh;
     line-height: 58px;
     color: #FFFFFF;
     text-shadow: 16px 16px 8px rgba(0, 0, 0, 0.08);
@@ -150,16 +291,19 @@
 
 .header .headertext .wrap-design .design
 {
-    margin-left: 50px;
+    margin-left: 6vw;
 
 }
-
+.header .headertext .wrap-design .design .hit .iconify
+{
+    font-size: 3vh;
+}
 .header .headertext .wrap-design .design .hit a
 {
     font-family: 'IBM Plex Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 2.2vh;
     line-height: 21px;
     text-decoration: none;
     color: #FFFFFF;
@@ -169,16 +313,17 @@
 .header .headertext .wrap-design .design .hit
 {
     margin-top: 24px;
-    width: 155px;
-    height: 48px;    
+    width: 10vw;
+    height: 6vh;    
     background: rgba(12, 12, 12, 0.5);
     border: 1px solid #FFFFFF;
     transition: 0.5s;
 }
 .header .headertext .wrap-design .design .hit:hover
 {
-    width: 171px;
+    width:11vw;
     background: #7EAF15;
+    border: 1px solid #7EAF15;
     animation: 0.5s;
 }
 
