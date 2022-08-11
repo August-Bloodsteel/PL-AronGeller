@@ -1,8 +1,11 @@
 /* Fonts */
 
 /* General Settings */
+.navbar-color
+{
+    background-color: black;
+}
 .navbar{
-    background-color: transparent;
     padding: 1.375rem 7.5rem;
 
     font-family: 'IBM Plex Sans';
