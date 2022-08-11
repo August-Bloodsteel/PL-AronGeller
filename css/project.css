@@ -4,7 +4,7 @@
     background: rgba(255, 255, 255, 0.5);
     height: 100%; 
     position: absolute;
-    left: -50px; 
+    left: 58px; 
     top: 0px;
     z-index: 1;
 }
@@ -153,6 +153,68 @@
 
 /* end natura */
 
+/* saint */
+
+.project .wrap-menu .tab-content .tab-pane .villa .project1 .saintimg1 img
+{
+    width: 1200px;
+    height: 258px;
+}
+
+.project .wrap-menu .tab-content .tab-pane .villa .project1 .saintimg2
+{
+    margin-top: 20px;
+}
+
+.project .wrap-menu .tab-content .tab-pane .villa .project1 .saintimg2 img
+{
+    width: 387px;
+    height: 258px;
+}
+
+.project .wrap-menu .tab-content .tab-pane .villa .project1 .saintimg2 #saint2
+{
+    margin-right: 20px;
+}
+.project .wrap-menu .tab-content .tab-pane .villa .project1 .saintimg2 #saint3
+{
+    margin-right: 20px;
+}
+/* end saint */
+.project .wrap-menu .tab-content .tab-pane .villa .project1 .fashionimg1 img
+{
+    width: 387px;
+    height: 260px;
+}
+
+.project .wrap-menu .tab-content .tab-pane .villa .project1 .fashionimg2 img
+{
+    width: 387px;
+    height: 540px;
+    margin-left: 17px;
+}
+
+.project .wrap-menu .tab-content .tab-pane .villa .project1 .fashionimg1 #fashion1
+{
+    margin-right: 17px;
+    margin-bottom: 17px;
+}
+
+.project .wrap-menu .tab-content .tab-pane .villa .project1 .fashionimg1 #fashion2
+{
+    margin-bottom: 17px;
+}
+
+.project .wrap-menu .tab-content .tab-pane .villa .project1 .fashionimg1 #fashion3
+{
+    margin-right: 17px;
+}
+
+
+/* fashion */
+
+
+/* end fashion */
 .project .wrap-menu .tab-content .tab-pane .villa .villatext
 {
     width: 1200px;
@@ -188,3 +250,61 @@
     font-size: 16px;
     line-height: 32px;
 }
+
+/* project 2 */
+
+/* cargo */
+.project .wrap-menu .tab-content .tab-pane .villa .project2 
+{
+    width: 1200px;
+    margin-bottom: 48px;
+}
+
+.project .wrap-menu .tab-content .tab-pane .villa .project2 .cargoimg1 img
+{
+    width: 285px;
+    height: 400px;
+}
+
+.project .wrap-menu .tab-content .tab-pane .villa .project2 .cargoimg1 #cargo1
+{
+    margin-right: 15px;
+}
+.project .wrap-menu .tab-content .tab-pane .villa .project2 .cargoimg1 #cargo2
+{
+    margin-right: 15px
+}
+.project .wrap-menu .tab-content .tab-pane .villa .project2 .cargoimg1 #cargo3
+{
+    margin-right: 15px;
+}
+/* end cargo */
+.project .wrap-menu .tab-content .tab-pane .villa .villatext .arrowcargo
+{
+    position: absolute;
+}
+
+/* elevator */
+.project .wrap-menu .tab-content .tab-pane #elevator
+{
+    margin-top: 110px;
+}
+/* end elevator */
+.project .wrap-menu .tab-content .tab-pane .villa .project2 .installimg1 img
+{
+    width: 387px;
+    height: 540px;
+}
+
+.project .wrap-menu .tab-content .tab-pane .villa .project2 .installimg1 #install1
+{
+    margin-right: 15px;
+}
+.project .wrap-menu .tab-content .tab-pane .villa .project2 .installimg1 #install2
+{
+    margin-right: 15px;
+}
+/* install */
+
+/* end install */
+/* end project 2 */
