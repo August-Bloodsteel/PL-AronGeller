@@ -1,31 +1,4 @@
-.wraplineheader .lineheader .line1
-{
-    width: 0.1vw;
-    background: rgba(255, 255, 255, 0.30);
-    height: 100%; 
-    position: absolute;
-    /*   */
-    top: 0px;
-    padding-bottom: -100px;
-    z-index: 1;
-}
 
-.wraplineheader .lineheader #line1
-{
-    margin-left: -1193px;
-}
-.wraplineheader .lineheader #line2
-{
-    margin-left: 620px; 
-}
-.wraplineheader .lineheader #line3
-{
-    margin-left: 850px; 
-}
-.wraplineheader .lineheader #line4
-{
-    margin-left: 1080px; 
-}
 
 .header
 {
@@ -326,4 +299,7 @@
     border: 1px solid #7EAF15;
     animation: 0.5s;
 }
-
+.header .headertext .wrap-design .design .hit:hover a
+{
+    color: black;
+}
