@@ -5,7 +5,7 @@
 
     <!-- Navbar Logo -->
     <div class="nav--logo d-flex d-lg-none">
-      <a class="navbar--brand" href="./index.html"><img src="./img/logo.svg" alt="Aron Geller" class="logo"></a>
+      <a class="navbar--brand" href="../index.html"><img src="./img/logo.svg" alt="Aron Geller" class="logo"></a>
     </div>
 
     <!-- Container For Responsive -->
@@ -20,7 +20,7 @@
         <ul class="navbar-nav mid d-flex align-items-start align-items-sm-center">
                 
           <li class="nav-item">
-            <a class="nav-link active1" id="index" href="./header.html">Home</a>
+            <a class="nav-link active1" id="index" href="index.html">Home</a>
           </li>
     
           <li class="nav-item">
@@ -28,7 +28,7 @@
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" id="porto" href="portofolio/indexporto.html">Portofolio</a>
+            <a class="nav-link" id="porto" href="./portofolio/indexporto.html">Portofolio</a>
           </li>
       
           <li class="nav-item">
@@ -85,7 +85,7 @@
     {
       console.log(event)
       var $current = $(this).scrollTop();
-      if($current > 60)
+      if($current > 0)
       {
         $navbar.addClass('navbar-color')
       }

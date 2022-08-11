@@ -40,25 +40,20 @@
 .header .wrapbanner23 .banner2 img
 {
     width: 100%;
-    height: auto;
+    height: 59.3vh;
 }
 .header .wrapbanner23 .banner2
 {
 
     margin-top: 0px;
 }
-.header .wrapbanner23 .headernum
+.header .design .textdesign .headernum
 {
-    position: absolute; 
-    width: 65.9vw; 
-    background: linear-gradient(90deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0) 100%);
-    z-index: 4;
-    margin-top: -150px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+
+    margin-top: 48px;
 }
 
-.header .wrapbanner23 .headnumber span
+.header .design .textdesign .headnumber span
 {
     font-family: 'IBM Plex Sans';
     font-style: normal;
@@ -68,7 +63,7 @@
     color: #FFFFFF;
 
 }
-.header .wrapbanner23 .headnumber h5
+.header .design .textdesign .headnumber h5
 {
     font-family: 'IBM Plex Sans';
     font-style: normal;
@@ -77,7 +72,7 @@
     line-height: 24px;
     color: white;
 }
-.header .wrapbanner23 #headnum1
+.header .design .textdesign #headnum1
 {
     margin-right: 48px;
 }
@@ -97,6 +92,19 @@
     width: 100%;
     height: auto;
 }
+
+.header .wrapbanner567 .banner5 img
+{
+    width: 100%;
+    height: auto;
+}
+
+.header .wrapbanner567 .banner67 img
+{
+    width: 100%;
+    height: auto;
+}
+
 .header .wrapbanner45 .life
 { 
     margin-bottom: 618px;
@@ -124,82 +132,9 @@
     color: #FFFFFF;
 
 }
-/* .header .wrapbanner45
-{
-    margin-top: -150px;
-} */
 
 
-/* .header .banner4
-{
-    margin-top: 0px;
-}
 
-.header .banner5 img
-{
-    width: 100%;
-    height: auto;
-} */
-.header .banner6 .award
-{
-    position: absolute;
-    width: 49.6vw;
-    margin-top: 80px;
-}
-.header .banner6 .award .wrapaward
-{
-    margin-left: 196px;
-}
-.header .banner6 .award .awardline img
-{
-    width: 179.65px;
-    height: 37.21px;
-
-}
-.header .banner6 .award .awardtext h1
-{
-    font-family: 'Uni Sans';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 48px;
-    line-height: 58px;
-    color: #FFFFFF;
-
-}
-.header .banner6 img
-{
-    width: 100%;
-    height: auto;
-}
-.header .banner7 img
-{
-    width: 100%;
-    height: 61vh;
-}
-.header .banner8 img
-{
-    width: 100%;
-    height: 62.4vh;
-}
-.header .banner6
-{
-    z-index: -1;
-}
-.header .banner7
-{
-    margin-left: -20px;
-    margin-bottom: -10px;
-    z-index: 1; 
-}
-.header .banner8
-{
-    margin-left: -20px;
-    margin-bottom: -40px;
-}
-.header .wrapbanner678
-{
-    margin-top: -3px;
-}
 
 
 .header .headertext .wrap-design .design h1
@@ -247,31 +182,3 @@
     animation: 0.5s;
 }
 
-
-.header .wrapbanner45 .life .change .learn a
-{
-    font-family: 'IBM Plex Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 21px;
-    text-decoration: none;
-    color: #FFFFFF;
-    position: relative;
-    top: 1px;
-}
-.header .wrapbanner45 .life .change .learn
-{
-    margin-top: 24px;
-    width: 155px;
-    height: 48px;    
-    background: rgba(12, 12, 12, 0.5);
-    border: 1px solid #FFFFFF;
-    transition: 0.5s;
-}
-.header .wrapbanner45 .life .change .learn:hover
-{
-    width: 171px;
-    background: #7EAF15;
-    animation: 0.5s;
-}
