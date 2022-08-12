@@ -1,9 +1,9 @@
 <!-- ============================ Start Contact Section ============================ -->
-<section class="contact d-flex flex-column justify-content-center">
+<section class="contact position-relative d-flex flex-row flex-lg-column justify-content-center">
 
-    <div class="row cont d-flex">
+    <div class="wadah cont nm d-lg-flex d-none">
 
-        <div class="col-lg-4 position-relative">
+        <div class="col-xl-4 col-lg-5 col-12 position-relative">
 
             <h1 class="cont-title d-flex justify-content-center">
                 Contact
@@ -15,36 +15,67 @@
 
     </div>
 
-    <div class="row cont d-flex align-items-center">
+    <div class="wadah cont nm d-flex flex-lg-row flex-column align-items-center">
         <!-- Left Img -->
-        <div class="col-lg-4 position-relative">
+        <div class="col-xl-4 col-md-5 col-12 d-flex flex-column align-items-center position-relative">
 
-            <img src="../img/contact--cu.png" alt="">
+            <!-- <h1 class="cont-title hid d-flex d-block d-lg-none justify-content-center position-relative">
+                Contact <img class="cont--arrow1 hid" src="../img/contact--arrow1.svg" alt="">
+            </h1> -->
+            <div class="hid--holder d-flex d-lg-none justify-content-center position-relative">
+                <h1 class="cont--title hid nm">
+                    Contact
+                </h1>
+                <img class="cont--arrowhid" src="../img/contact--arrow1.svg" alt="">
+            </div>
 
-            <img class="cont--arrow2" src="../img/contact--arrow2.svg" alt="">
+
+            <img class="contact--cu" src="../img/contact--cu.png" alt="">
+
+            <img class="cont--arrow2 d-none d-lg-block" src="../img/contact--arrow2.svg" alt="">
 
         </div>
 
         <!-- Contact Form -->
-        <div class="col-lg-8">
+        <div class="col-xl-8 col-lg-7 col-12">
 
-            <div>
-                <h1 class="cont--label">E-mail</h1>
-                <input class="cont--form name" type="text" id="name" placeholder="Enter your e-mail" required>
-            </div>
+            <form>
 
-            <div>
-                <h1 class="cont--label">Message</h1>
-                <textarea class="cont--form massage" name="massage" id="massage" placeholder="Enter your message" required></textarea>
-            </div>
+                <div>
+                    <h1 class="cont--label">E-mail</h1>
+                    <input class="cont--form name" type="text" name="email" id="email" placeholder="Enter your e-mail" value="" required>
+                </div>
+    
+                <div>
+                    <h1 class="cont--label">Message</h1>
+                    <textarea class="cont--form massage" name="massage" id="massage" placeholder="Enter your message" value="" required></textarea>
+                </div>
 
+                <input type="hidden" name="target" id="target" value="0895800035872">
 
-            <div class="cont--btn d-flex align-items-center justify-content-center">
-                <a href=""><i class="iconify" data-icon="bi:arrow-right-short"></i>Send</a>
-            </div>
+               <div onclick="gotowhatsapp()" class="cont--btn d-flex align-items-center justify-content-center">
+                    <a type="submit"><i class="iconify" data-icon="bi:arrow-right-short"></i>Send</a>
+                </div>
+    
+
+            </form>
 
         </div>
     </div>
 
 </section>
 <!-- ============================ End Contact Section ============================ -->
+
+<script>
+    function gotowhatsapp() {
+        
+        var email = document.getElementById("email").value;
+        var massage = document.getElementById("massage").value;
+    
+        var url = "https://wa.me/+62895413369346?text="
+        + "Email: " + email  + "%0a"
+        + massage; 
+    
+        window.open(url, '_blank').focus();
+    }
+    </script>

@@ -1,4 +1,4 @@
-/* General Setting */
+/* General Settings */
 .contact{
     height: 100vh;
     width: 100%;
@@ -10,8 +10,14 @@
     color: #FFFFFF;
 }
 
-.row.cont{
+.wadah.cont{
     padding: 0px 7.887%;
+    width: 100%;
+}
+
+
+.nm{
+    margin: 0;
 }
 
 /* Contact Form */
@@ -58,6 +64,7 @@
     color: #FFFFFF;
 }
 
+/* Contact Button */
 .cont--btn{
     background: #0C0C0C;
     border: 1px solid #FFFFFF;
@@ -66,7 +73,6 @@
     transition: 0.7s;
 }
 
-/* Contact Button */
 .cont--btn a{
     color: #FFFFFF;
     text-decoration: none;
@@ -90,9 +96,11 @@
 }
 
 .cont--btn:hover{
-    width: 11rem;
+    width: 9rem;
     background-color: rgba(126, 175, 21, 1);
     color: #FFFFFF;
+    border: none;
+
 }
 
 /* Contact Arrows */
@@ -112,4 +120,87 @@
     right: 5%;
 
     transform: translate(-50%,-50%);
+}
+
+/* Garis - Garis */
+.garis{
+    position: absolute;
+    height: 100vh;
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    transform: translate(-50%, -50%);
+
+    left: 50%;
+    top: 50%;
+}
+
+@media only screen and (max-width:1200px){
+    /* Gambar Contact */
+    .contact--cu{
+        width: 100%;
+    }
+
+    .cont--arrow1{
+        right: 5%;
+    }
+
+    .cont--arrow2{
+        bottom: -25%;
+        right: 0%;
+    }
+}
+
+
+@media only screen and (max-width:992px) {
+    /* General Settings */
+    .contact{
+        height: 100%;
+    }
+
+    /* Contact Button */
+    .cont--btn{
+        background-color: rgba(126, 175, 21, 1);
+        border: none;
+        height: 3rem;
+        width: 100%;
+        transition: 0.7s;
+        color: #FFFFFF;
+
+        margin-bottom: 3rem;
+    }
+
+    .cont--btn:hover{
+        width: 100%;
+        color: #FFFFFF;
+    }
+
+    .hid--holder{
+        margin-top: 7rem;
+        margin-bottom: 1rem;
+    }
+    
+    /* Gambar Contact */
+    .contact--cu{
+        width: auto;
+        margin-bottom: 1.5rem;
+    }
+
+    .cont--arrowhid{
+        margin-left: 1rem;
+    }
+
+}
+
+@media only screen and (max-width:576px){
+    .contact--cu{
+        width: 75%;
+        margin-bottom: 1.5rem;
+    }
+
+    .cont--arrowhid{
+        margin-left: 0.5rem;
+    }
+
+    .cont--title.hid{
+        font-size: 2rem;
+    }
 }
