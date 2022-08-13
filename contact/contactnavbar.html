@@ -79,6 +79,25 @@
 <!-- ============================ Start Script Area ============================ -->
 
 <script>
+  $( document ).ready(function() {
+    var $navbar = $('.navbar');
+    $(window).scroll(function(event)
+    {
+      console.log(event)
+      var $current = $(this).scrollTop();
+      if($current > 0)
+      {
+        $navbar.addClass('navbar-color')
+      }
+      else
+      {
+        $navbar.removeClass('navbar-color')
+      }
+    })
+})
+</script>
+
+<script>
 
   let btnNav = document.getElementById("btnNav")
   let navHolder = document.getElementById("navHolder")
