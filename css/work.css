@@ -1,0 +1,201 @@
+.wrapwork  .work2 .gambarkiri img
+{
+    height: 171.5vh;
+}
+.wrapwork .work .workservice #vertikal
+{
+    margin-top: 5vh;
+}
+.wrapwork .work .consulting .textconsulting
+{
+    margin-left: -30vw;
+    margin-top: 10vh;
+}
+
+.wrapwork .work .consulting h1
+{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.7vh;
+    line-height: 26px;
+    color: #7EAF15;
+}
+
+.wrapwork .work .consulting h2
+{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.2vh;
+    line-height: 32px; 
+    color: #FFFFFF;
+}
+.wrapwork .work .consulting ul
+{
+    margin-top: 20px;
+    margin-left: 0px;
+}
+.wrapwork .work .consulting ul li
+{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.2vh;
+    line-height: 32px;
+    color: #FFFFFF;
+
+}
+
+.wrapwork .work .consulting2 
+{
+    margin-top: 10vh;
+}
+.wrapwork .work .consulting2 h1
+{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.7vh;
+    line-height: 26px;
+    color: #7EAF15;
+}
+
+.wrapwork .work .consulting2 h2
+{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.2vh;
+    line-height: 32px; 
+    color: #FFFFFF;
+}
+.wrapwork .work .consulting2 ul
+{
+    margin-top: 20px;
+    margin-left: 0px;
+}
+.wrapwork .work .consulting2 ul li
+{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.2vh;
+    line-height: 32px;
+    color: #FFFFFF;
+
+}
+
+
+.wrapwork .work .consulting3
+{
+    margin-top: 10vh;
+} 
+
+.wrapwork .work .consulting3 .textconsulting
+{
+    margin-right: -60vw;
+}
+.wrapwork .work .consulting3 h1
+{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.7vh;
+    line-height: 26px;
+    color: #7EAF15;
+}
+
+.wrapwork .work .consulting3 h2
+{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.2vh;
+    line-height: 32px; 
+    color: #FFFFFF;
+}
+.wrapwork .work .consulting3 ul
+{
+    margin-top: 20px;
+    margin-left: 0px;
+}
+.wrapwork .work .consulting3 ul li
+{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.2vh;
+    line-height: 32px;
+    color: #FFFFFF;
+
+}
+
+
+.wrapwork .work2  .gambarkiri .wrapbuild
+{
+    position: absolute;
+}
+
+.wrapwork .work2  .gambarkiri .wrapbuild .build
+{
+    width: 100%;
+}
+.wrapwork .work2  .gambarkiri .wrapbuild .build img
+{
+    width: 31vh;
+    height: 22vw;
+    margin-left: 15vw;
+    margin-top: -25vh;
+}
+
+.wrapwork .work2  .gambarkiri .buildservis
+{
+    position: absolute; 
+    margin-top: 110vh; 
+    margin-left: 10vw;
+}
+.wrapwork .work2  .gambarkiri .buildservis .servistext h1
+{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px;
+    color: #7EAF15;
+}
+.wrapwork .work2  .gambarkiri .buildservis .servistext h2
+{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;   
+    color: #FFFFFF;
+}
+.wrapwork .work2  .gambarkanan .wrapbuildtext .buildtext h1
+{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px;
+    color: #7EAF15;
+}
+
+.wrapwork .work2  .gambarkanan .wrapbuildtext .buildtext h2
+{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;   
+    color: #FFFFFF;
+}
+
+.wrapwork .work2  .gambarkanan .wrapbuildtext .buildtext
+{
+    margin-top: 8.8vh;
+    margin-left: 1.5vw;
+}
+
