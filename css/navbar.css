@@ -4,6 +4,7 @@
 .navbar-color
 {
     background-color: black;
+    transition: 0.7s;
 }
 .navbar{
     padding: 1.375rem 7.5rem;
@@ -16,6 +17,7 @@
     border-bottom: 1px solid rgba(255, 255, 255, 0.75);
 
     position: relative;
+    transition: 0.7s;
 }
 
 .navbar .navbar-nav .nav-item .nav-link{
@@ -51,7 +53,7 @@
     width: 100%;
 }
 
-.navbar .navbar-nav.mid .nav-item .nav-link.active1{
+.navbar .navbar-nav.mid .nav-item .nav-link.active{
     font-weight: 600;
     color: rgba(126, 175, 21, 1);
 }
