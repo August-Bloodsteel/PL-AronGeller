@@ -8,6 +8,8 @@
     font-family: 'IBM Plex Sans';
     font-style: normal;
     color: #FFFFFF;
+
+    padding-top: 3.5rem;
 }
 
 .wadah.cont{
@@ -92,13 +94,12 @@
     height: 1.5rem;
 
     margin-right: 0.5rem;
-    transition: 0.7s;
 }
 
 .cont--btn:hover{
-    width: 9rem;
+    width: 10rem;
     background-color: rgba(126, 175, 21, 1);
-    color: #FFFFFF;
+    color: black;
     border: none;
 
 }
@@ -122,17 +123,6 @@
     transform: translate(-50%,-50%);
 }
 
-/* Garis - Garis */
-.garis{
-    position: absolute;
-    height: 100vh;
-    border-left: 1px solid rgba(255, 255, 255, 0.5);
-    transform: translate(-50%, -50%);
-
-    left: 50%;
-    top: 50%;
-}
-
 @media only screen and (max-width:1200px){
     /* Gambar Contact */
     .contact--cu{
@@ -154,6 +144,7 @@
     /* General Settings */
     .contact{
         height: 100%;
+        padding-top: 10vh;
     }
 
     /* Contact Button */
@@ -174,7 +165,7 @@
     }
 
     .hid--holder{
-        margin-top: 7rem;
+        margin-top: 3rem;
         margin-bottom: 1rem;
     }
     
