@@ -152,6 +152,44 @@
     width: 50%;
     margin-top: 11vh;
 }
+.header .wrapbanner567 .banner5 .wrapaward .award .learn
+{
+    width: 11vw;
+    height: 6.6vh;
+    background: rgba(12, 12, 12, 0.5);
+    border: 1px solid #FFFFFF;
+    transition: 0.5s;
+}
+.header .wrapbanner567 .banner5 .wrapaward .award 
+{
+    margin-left: 7.8vw;
+}
+.header .wrapbanner567 .banner5 .wrapaward .award .learn:hover
+{
+    width: 12vw;
+    background: #7EAF15;
+    border: 1px solid #7EAF15
+}
+.header .wrapbanner567 .banner5 .wrapaward .award .learn:hover a
+{
+    color: black;
+}
+.header .wrapbanner567 .banner5 .wrapaward .award .learn a
+{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.2vh;
+    line-height: 21px;
+    color: #FFFFFF;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+.header .wrapbanner567 .banner5 .wrapaward .award .learn .iconify
+{
+    font-size: 3.3vh;
+}
 
 .header .wrapbanner567 .banner5 .wrapaward .award h1
 {
@@ -161,12 +199,19 @@
     font-size: 6vh;
     line-height: 58px;
     color: #FFFFFF;
+    text-transform: uppercase;
 }
 
-.header .wrapbanner567 .banner5 .wrapaward .award img
+.header .wrapbanner567 .banner5 .wrapaward .arrowarsitek
 {
-    width: 12.8vw;
-    height: 5.6vh;
+    position: absolute;
+}
+.header .wrapbanner567 .banner5 .wrapaward .arrowarsitek img
+{
+    width: 6.47vw;
+    height: 17vh;
+    margin-left: 24vw;
+    margin-top: 2vh;
 }
 .header .wrapbanner567 .banner5 img
 {
@@ -257,11 +302,11 @@
 
 .header .headertext .wrap-design .design h1
 {
-    font-family: 'Uni Sans';
+    font-family: 'Kanit';
     font-style: normal;
-    font-weight: 900;
+    font-weight: 700;
+    line-height: 48px;
     font-size: 6vh;
-    line-height: 58px;
     color: #FFFFFF;
     text-shadow: 16px 16px 8px rgba(0, 0, 0, 0.08);
 }
