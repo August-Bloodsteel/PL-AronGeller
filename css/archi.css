@@ -108,3 +108,24 @@
 
     margin-bottom: 5.5rem;
 }
+
+.archi--card.left{
+    margin-right: 1.25rem;
+}
+
+.archi--card.right{
+    margin-left: 1.25rem;
+}
+
+.another--archi--img{
+    width: 100%;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+
+    transition: 0.7s;
+}
+
+.another--archi--img:hover{
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+}
