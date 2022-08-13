@@ -289,6 +289,7 @@
     margin-top: 110px;
 }
 /* end elevator */
+/* install */
 .project .wrap-menu .tab-content .tab-pane .villa .project2 .installimg1 img
 {
     width: 387px;
@@ -303,7 +304,39 @@
 {
     margin-right: 15px;
 }
-/* install */
+
 
 /* end install */
 /* end project 2 */
+
+/* project 3 */
+/* crane */
+.project .wrap-menu .tab-content .tab-pane #crane2 h1
+{
+    margin-top: 120px;
+}
+/* end crane */
+/* end project 3 */
+
+
+/* project 4 */
+/* bridege */
+.project .wrap-menu .tab-content .tab-pane .villa .project2 .bridgeimg1 #bridge1
+{
+    margin-right: 15px;
+}
+.project .wrap-menu .tab-content .tab-pane .villa .project2 .bridgeimg1 #bridge2
+{
+    margin-right: 15px;
+}
+.project .wrap-menu .tab-content .tab-pane .villa .project2 .bridgeimg1 #bridge3
+{
+    margin-right: 15px;
+}
+
+.project .wrap-menu .tab-content .tab-pane #bridge2 h1
+{
+    margin-top: 120px;
+}
+/* end bridge */
+/* end project 4 */
