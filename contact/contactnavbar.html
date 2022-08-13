@@ -28,7 +28,7 @@
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" id="porto" href="#">Portofolio</a>
+            <a class="nav-link" id="porto" href="../portofolio/indexporto.html">Portofolio</a>
           </li>
       
           <li class="nav-item">
@@ -40,11 +40,12 @@
           </li>
           
           <li class="nav-item">
-            <a class="nav-link" id="news" href="#">News</a>
+            <a class="nav-link" id="news" href="../news/newsindex.html">News</a>
           </li>
           
           <li class="nav-item">
-            <a class="nav-link  active" id="contact" href="#">Contact</a>
+            <a class="nav-link  active1" id="contact" href="./contactindex.html">Contact</a>
+
           </li>
           
         </ul>
@@ -77,6 +78,25 @@
 <!-- ============================ End Navbar Section ============================ -->
 
 <!-- ============================ Start Script Area ============================ -->
+
+<script>
+  $( document ).ready(function() {
+    var $navbar = $('.navbar');
+    $(window).scroll(function(event)
+    {
+      console.log(event)
+      var $current = $(this).scrollTop();
+      if($current > 0)
+      {
+        $navbar.addClass('navbar-color')
+      }
+      else
+      {
+        $navbar.removeClass('navbar-color')
+      }
+    })
+})
+</script>
 
 <script>
 

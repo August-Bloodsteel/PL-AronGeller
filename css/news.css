@@ -1,0 +1,96 @@
+/* General Settings */
+.news{
+    color: white;
+    background-color: black;
+
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    padding-top: 3.5rem;
+}
+
+.wadah.nws{
+    padding: 0px 7.887%;
+    width: 100%;
+}
+
+/* News Title */
+.news--title{
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 2.75rem;
+
+    margin-top: 4rem;
+    margin-bottom: 0.5rem;
+}
+
+.news--arrow{
+    width: 7rem;
+
+    margin-bottom: 4rem;
+}
+
+/* News Cards */
+.kartu{
+    min-height: 42rem;
+    margin-bottom: 5.5rem;
+
+}
+
+.news--holder{
+    gap: 1.25rem;
+}
+
+.card--content{
+    height: 100%;
+}
+
+.news--thumb{
+    height: 27.5rem;
+    margin-bottom: 1.5rem;
+}
+
+/* News Headline */
+.news--head{
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 2rem;
+
+    color: #7EAF15;
+    margin-bottom: 0.5rem;
+}
+
+/* News Button */
+.news--btn{
+    background: #0C0C0C;
+    border: 1px solid #FFFFFF;
+    height: 3rem;
+    width: 9.75rem;
+
+    transition: 0.7s;
+}
+
+.news--btn{
+    color: #FFFFFF;
+    text-decoration: none;
+
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 21px;
+
+}
+
+.news--btn .iconify{
+
+    width: 1.5rem;
+    height: 1.5rem;
+
+    margin-right: 0.5rem;
+}
+
+.news--btn:hover{
+    width: 11.75rem;
+    background-color: rgba(126, 175, 21, 1);
+    color: black;
+    border: none;
+
+}
