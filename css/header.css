@@ -85,11 +85,11 @@
 }
 .header .wrapbanner23 .banner2 .change h1
 {
-    font-family: 'Uni Sans';
+    font-family: 'Kanit';
     font-style: normal;
-    font-weight: 900;
+    font-weight: 700;
+    line-height: 72px;
     font-size: 6vh;
-    line-height: 58px;
     color: #FFFFFF;
     position: absolute;
 }
@@ -195,11 +195,11 @@
 
 .header .wrapbanner567 .banner5 .wrapaward .award h1
 {
-    font-family: 'Uni Sans';
+    font-family: 'Kanit';
     font-style: normal;
-    font-weight: 900;
+    font-weight: 700;
+    line-height: 72px;
     font-size: 6vh;
-    line-height: 58px;
     color: #FFFFFF;
     text-transform: uppercase;
 }
@@ -287,7 +287,10 @@
     color: #FFFFFF;
     text-shadow: 16px 16px 8px rgba(0, 0, 0, 0.08);
 }
-
+.header .headertext .wrap-design 
+{
+    margin-top: -24vh;
+}
 .header .headertext .wrap-design .design
 {
     margin-left: 6vw;
