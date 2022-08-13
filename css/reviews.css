@@ -23,6 +23,41 @@
     margin-top: 94px;
 }
 
+.reviews .reviewstext .viewtext .michaelarrow
+{
+    position: absolute;
+
+}
+
+.reviews .reviewstext .viewtext .michaelarrow img
+{
+    margin-top: -9vh;
+    margin-left: -7vw;
+}
+.reviews .reviewstext .viewtext .borisarrow
+{
+    position: absolute;
+}
+
+.reviews .reviewstext .viewtext .borisarrow img
+{
+    margin-top: -9vh;
+    margin-left: -12vw;
+}
+
+.reviews .reviewstext .viewtext .larisaarrow
+{
+    position: absolute;
+}
+
+.reviews .reviewstext .viewtext .larisaarrow img
+{
+    margin-top: -9vh;
+    margin-left: -12vw;
+}
+
+
+
 .reviews .reviewstext .viewtext h1
 {
     font-family: 'IBM Plex Sans';
