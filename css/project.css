@@ -28,6 +28,15 @@
     margin-top: 72px;
 }
 
+.project .projectitle .wrapprojectarr #kiri
+{
+    margin-right: 1.6vw;
+}
+.project .projectitle .wrapprojectarr #kanan
+{
+    margin-left: 1.6vw;
+}
+
 .project .projectitle
 {
     color: white;
