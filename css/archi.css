@@ -1,0 +1,110 @@
+/* General Settings */
+.architecture{
+    padding-top: 3.5rem;
+    background-color: black;
+    color: white;
+
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+}
+
+.wadah.arc{
+    padding: 0px 7.887%;
+    width: 100%;
+}
+
+/* Architecture Title */
+.archi--title{
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 42px;
+
+    margin-top: 4rem;
+    margin-bottom: 0;
+}
+
+.archi--title--folup{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 21px;
+
+    margin-bottom: 1.5rem;
+}
+
+/* Landing Image */
+.archi--landing > img{
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+/* Description PJN 063 */
+.pjn--063{
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 21px;
+
+    margin-bottom: 1.5rem;
+}
+
+.d1--up{
+    width: 20rem;
+    margin-bottom: 0.5rem;
+}
+
+.d1--up--tb1{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 2rem;
+}
+
+.d1--bot--desc{
+    max-width: 38rem;
+}
+
+/* Description 1 Image */
+.wp--arrow{
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+
+    left: -15%;
+}
+
+/* Paragraph */
+.long--para{
+    text-align: left;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+
+    margin-top: 1.5rem;
+    margin-bottom: 4rem;
+}
+
+/* Image List */
+.archi--list{
+    width: 100%;
+}
+
+.skip{
+    margin-bottom: 1.5rem;
+}
+
+.skip2{
+    margin-bottom: 4rem;
+}
+
+/* Another Project */
+.another--archi--title{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 21px;
+
+    margin-bottom: 1.5rem;
+}
+
+.archi--card--holder{
+    width: 100%;
+
+    margin-bottom: 5.5rem;
+}
