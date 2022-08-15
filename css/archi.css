@@ -13,6 +13,10 @@
     width: 100%;
 }
 
+.np{
+    padding: 0;
+}
+
 /* Architecture Title */
 .archi--title{
     font-weight: 600;
@@ -23,7 +27,7 @@
     margin-bottom: 0;
 }
 
-.archi--title--folup{
+.archi--title--loc{
     font-weight: 400;
     font-size: 1rem;
     line-height: 21px;
@@ -59,6 +63,7 @@
 
 .d1--bot--desc{
     max-width: 38rem;
+    padding-right: 0.75rem;
 }
 
 /* Description 1 Image */
@@ -66,7 +71,8 @@
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
 
-    left: -15%;
+    top: 10%;
+    left: -23%;
 }
 
 /* Paragraph */
@@ -79,6 +85,23 @@
 
     margin-top: 1.5rem;
     margin-bottom: 4rem;
+}
+
+/* Paragraph Button */
+.para--more--btn{
+    background-color: transparent;
+    border: none;
+
+    color: rgba(126, 175, 21, 1);
+    font-size: 0.75rem;
+}
+
+ .dd.iconify{
+    font-size: 1rem;
+    color: rgba(126, 175, 21, 1);
+
+    transform: scaleY(1);
+    margin-right: 0.75rem;
 }
 
 /* Image List */
@@ -128,4 +151,95 @@
 .another--archi--img:hover{
     -webkit-filter: grayscale(0%);
     filter: grayscale(0%);
+}
+
+@media only screen and (max-width:1200px){
+    .white--print{
+        width: 100%;
+    }
+
+    .wp--arrow{
+        width: 8rem;
+        left: -23%;
+    }
+    
+}
+
+@media only screen and (max-width:992px) {
+    .d1--up{
+        width: 30rem;
+    }
+
+    .d1--bot--desc{
+        max-width: 100%;
+        padding: 0%;
+    }
+
+    .white--print.hidden{
+        margin-top: 2.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .long--para{
+        margin-bottom: 0.5rem;
+    }
+    
+    .more{
+        margin-bottom: 3rem;
+    }
+}
+
+@media only screen and (max-width:576px){
+
+    .archi--title{
+        font-size: 1.5rem;
+        line-height: 2rem;
+        text-align: center;
+
+        margin-top: 3rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .d1--up{
+        width: 15.5rem;
+    }
+
+    .d1--up--tb1{
+        font-size: 0.875rem;
+    }
+
+    .d1--bot--desc{
+        font-size: 0.875rem;
+    }
+
+    .archi--desc1{
+        margin-bottom: 0.5rem;
+    }
+
+    .long--para{
+        font-size: 0.875rem;
+    }
+
+    .archi--card--holder{
+        margin-bottom: 4rem;
+    }
+
+    .archi--card.left{
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
+
+    .archi--card.right{
+        margin-left: 0;
+        margin-top: 1rem;
+    }
+
+    .archi--para--holder{
+        display: none;
+        font-size: 00.875rem;
+    }
+
+    .archi--para--holder.rev{
+        display: flex;
+    }
 }
