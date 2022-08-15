@@ -16,7 +16,7 @@
     font-size: 1rem;
     line-height: 1.375rem;
     border-bottom: 1px solid rgba(255, 255, 255, 0.75);
-
+    background-color: black;
     position: relative;
     transition: 0.7s;
 }
