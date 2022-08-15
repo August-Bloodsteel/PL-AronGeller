@@ -332,3 +332,298 @@
 {
     color: black;
 }
+
+
+
+/* responsive */
+.header-mobile .wrap-m .m1 .we-m h1
+{
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10vh;
+    line-height: 10vh;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 62%;
+    position: relative;
+    margin-left: 5vh;
+
+}
+.header-mobile .wrap-m .m1 .we-m
+{
+    position: absolute; 
+    margin-bottom: 10vh;
+
+}
+
+.header-mobile .wrap-m .m1 .we-m .panahwe
+{
+    position: relative; 
+    margin-top: -100px; 
+    top: 11.3vh;
+    margin-left: 20vw;
+}
+
+.header-mobile .wrap-m .m2 .num-m
+{
+    position: absolute;
+}
+.header-mobile .wrap-m .m2 .num-m .headnum-m
+{
+    margin-bottom: 9vh;
+    margin-top: 9vh;
+    margin-left: 4vw;
+}
+
+.header-mobile .wrap-m .m2 .num-m .headnum-m span
+{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10vh;
+    line-height: 10vh;
+    color: #FFFFFF;
+
+}
+
+.header-mobile .wrap-m .m2 .num-m .headnum-m h5
+{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 7vh;
+    line-height: 7vh;
+    color: #FFFFFF;
+    margin-left: 1vw;
+}
+
+
+.header-mobile .wrap-m .m3 .hit-m
+{
+    width: 100%;
+    position: absolute;
+    margin-bottom: 20vh;
+}
+
+.header-mobile .wrap-m .m3 .hit-m .up-m
+{
+    width: 70%;
+    height: 20vh;
+    background: #7EAF15;
+}
+.header-mobile .wrap-m .m3 .hit-m .up-m a
+{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 5vh;
+    line-height: 21px;
+    color: #000000;
+    text-decoration: none;
+    position: relative;
+    top: 2px;
+}
+.header-mobile .wrap-m .m3 .hit-m .up-m .iconify
+{
+    font-size: 7vh;
+    margin-right: 2vh;
+}
+
+
+.header-mobile .wrap-m .m4 .change-m
+{
+    position: absolute;
+    margin-bottom: 150vh;
+}
+
+.header-mobile .wrap-m .m4 .change-m h1
+{
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10vh;
+    line-height: 48px;
+    text-transform: uppercase;
+    position: relative;
+    color: #FFFFFF;
+}
+
+.header-mobile .wrap-m .m4 .change-m .bulet
+{
+    width: 25vw;
+    height: 20vh;
+    margin-top: -100px;
+    position: relative;
+    top: 90px;
+    margin-left: 37vw;
+}
+
+.header-mobile .wrap-m .m4 .change-m .arsi
+{
+    width: 25vw;
+    height: 20vh;
+    margin-top: -100px;
+    position: relative;
+    top: 140px;
+    margin-left: 40vw;
+}
+
+.header-mobile .wrap-m .m4 .see-m
+{
+    position: absolute;
+    width: 70%;
+    height: 20vh;
+    background: #7EAF15;
+    margin-bottom: 20vh;
+}
+.header-mobile .wrap-m .m4 .see-m  a
+{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 5vh;
+    line-height: 21px;
+    color: #000000;
+    text-decoration: none;
+    position: relative;
+    top: 2px;
+}
+.header-mobile .wrap-m .m4 .see-m  .iconify
+{
+    font-size: 7vh;
+    margin-right: 2vh;
+}
+
+@media only screen and (max-width:992px)
+{
+    .header-mobile .wrap-m
+    {
+        margin-top: 7vh;
+    }
+
+    .header-mobile .wrap-m .m1 .we-m
+    {
+        margin-bottom: 3.3vh;
+ 
+    }
+
+    .header-mobile .wrap-m .m1 .we-m h1
+    {
+        width: 63%;
+        font-size: 3.4vh;
+        line-height: 3.4vh;
+        margin-left: 3.3vh;
+    }
+
+    .header-mobile .wrap-m .m1 .we-m .panahwe
+    {
+        width: 164px;
+        height: 45.03px;
+        margin-top: -120px; 
+    }
+
+    .header-mobile .wrap-m .m2 .num-m .headnum-m span
+    {
+        font-size: 3.3vh;
+        line-height: 3.3vh;
+    }
+    
+    .header-mobile .wrap-m .m2 .num-m .headnum-m h5
+    {
+        font-size: 1.9vh;
+        line-height: 1.9vh;
+        margin-top: 10px;
+    }    
+
+    .header-mobile .wrap-m .m2 .num-m .headnum-m
+    {
+        margin-bottom: 1vh;
+        margin-top: 1vh;
+        margin-left: 4vw;
+    }
+    
+
+
+    .header-mobile .wrap-m .m3 .hit-m
+    {
+        margin-bottom: 5vh;
+    }
+
+    .header-mobile .wrap-m .m3 .hit-m .up-m
+    {
+        width: 90%;
+        height: 8vh;
+    }
+
+    .header-mobile .wrap-m .m3 .hit-m .up-m a
+    {
+        font-size: 2.7vh;
+    }
+
+    .header-mobile .wrap-m .m3 .hit-m .up-m .iconify
+    {
+        font-size: 4vh;
+        margin-right: 0;
+        position: relative;
+        bottom: 2px;
+    }
+
+
+
+
+    .header-mobile .wrap-m .m4 .change-m
+    {
+        margin-bottom: 47vh;
+    }
+    
+
+    .header-mobile .wrap-m .m4 .change-m h1
+    {
+        font-size: 4.43vh;
+    }
+
+    .header-mobile .wrap-m .m4 .change-m .bulet
+    {
+        width: 25vw;
+        height: 20vh;
+        margin-top: -100px;
+        position: relative;
+        top: 87px;
+        margin-left: 55vw;
+    }
+
+    .header-mobile .wrap-m .m4 .change-m .arsi
+    {
+        width: 20vw;
+        height: 15vh;
+        margin-top: -100px;
+        position: relative;
+        top: 110px;
+        margin-left: 50vw;
+    }
+
+    .header-mobile .wrap-m .m4 .see-m
+    {
+        margin-bottom: 5vh;
+        width: 90%;
+        height: 8vh;
+    }
+
+    .header-mobile .wrap-m .m4 .see-m a
+    {
+        font-size: 2.7vh;
+    }
+
+    .header-mobile .wrap-m .m4 .see-m  .iconify
+    {
+        font-size: 4vh;
+        margin-right: 0;
+        position: relative;
+        bottom: 1px;
+    }
+
+}
+
+
+/* end responsive */
