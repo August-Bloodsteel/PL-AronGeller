@@ -14,6 +14,9 @@
 {
     width: 100%;
     height: 59.5vh;
+    border: 0.5px solid rgba(255, 255, 255, 0.10);
+    border-left: none;
+    
 }
 .header .wrapbanner23 .banner2 #banner3
 {
@@ -132,8 +135,7 @@
 
 .header .wrapbanner23  .banner45 #banner4
 {
-    border-top: 0.5px solid rgba(255, 255, 255, 0.10);
-    border-bottom: 0.5px solid rgba(255, 255, 255, 0.10);
+    border: 0.5px solid rgba(255, 255, 255, 0.10);
 }
 
 .header .wrapbanner23  .banner45 .arrow2 
@@ -153,6 +155,16 @@
     position: absolute;
     width: 50%;
     margin-top: 11vh;
+}
+.header .wrapbanner567 .banner5 #g-5
+{
+    border: 0.01px solid rgba(255, 255, 255, 0.10);
+    border-left: 0px;
+}
+.header .wrapbanner567 .banner67 img
+{
+    border: 0.01px solid rgba(255, 255, 255, 0.10);
+    border-right: 0px;
 }
 .header .wrapbanner567 .banner5 .wrapaward .award .learn
 {
