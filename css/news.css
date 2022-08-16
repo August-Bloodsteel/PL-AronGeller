@@ -1,3 +1,4 @@
+/* ============================== News ============================== */
 /* General Settings */
 .news{
     color: white;
@@ -59,6 +60,10 @@
     margin-bottom: 0.5rem;
 }
 
+.news--sum{
+    margin: 0;
+}
+
 /* News Button */
 .news--btn{
     background: #0C0C0C;
@@ -92,5 +97,374 @@
     background-color: rgba(126, 175, 21, 1);
     color: black;
     border: none;
+
+}
+
+@media only screen and (max-width:1200px){
+    .news--thumb{
+        height: 19.5rem;
+    }
+}
+
+
+@media only screen and (max-width:992px) {
+    .kartu{
+        min-height: auto;
+    }
+
+    .news--title{
+        margin-top: 3rem;
+    }
+
+    .news--arrow{
+        margin-bottom: 1.75rem;
+    }
+
+    .news--thumb{
+        height: auto;
+        width: 100%;
+    }
+
+    .news--btn{
+        width: 100%;
+        background-color: rgba(126, 175, 21, 1);
+        color: black;
+        border: none;
+
+        margin-top: 1.5rem;
+    }
+
+    .news--btn:hover{
+        width: 100%;
+    }
+
+    .news--sum{
+        margin-bottom: 1.5rem;
+    }
+}
+
+@media only screen and (max-width:576px){
+    .kartu{
+        margin-bottom: 4rem;
+    }
+
+    .news--holder{
+        gap: 0rem;
+    }
+
+    .news--title{
+        font-size: 1.5rem;
+        margin-bottom: 0rem;
+    }
+
+    .news--head{
+        font-size: 1.25rem;
+    }
+
+    .news--sum{
+        font-size: 0.875rem;
+    }
+}
+/* ============================== News ============================== */
+
+/* ============================== Roxy ============================== */
+/* General Settings */
+.news--title--rx{
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 2rem;
+
+    color: #7EAF15;
+    margin-top: 4rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Title */
+.news--title--folup--rx{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 2rem;
+
+    margin-bottom: 3rem;
+}
+
+.roxy--content--holder{
+    width: 100%;
+}
+
+.roxy--desc{
+    margin-bottom: 5.5rem;
+}
+
+/* Landing Image */
+.this--roxy{
+    background-image: url(../img/another--news2.png);
+    background-size: cover;
+
+    margin-bottom: 3rem;
+    width: 100%;
+}
+
+.roxy--img{
+    width: 100%;
+    opacity: 0%;
+}
+
+.roxy--arrow--down{
+    position: absolute;
+
+    width: 4rem;
+    bottom: -9%;
+    right: 9%;
+}
+
+/* Paragraph */
+.roxy--desc--para{
+    max-width: 31rem;
+
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 2rem;
+    
+    margin-bottom: 0;
+}
+
+.roxy--tb{
+    width: 100%;
+
+    font-size: 1rem;
+    line-height: 2rem;
+}
+
+.roxy--th{
+    font-weight: 600;
+}
+
+.roxy--th.lbb{
+    width: 40%;
+}
+
+@media only screen and (max-width:1200px) {
+    .roxy--desc--para{
+        max-width: 25rem;
+    }
+
+    .roxy--arrow--down{
+        bottom: -12%;
+        right: 6%;
+    }
+}
+
+@media only screen and (max-width:992px){
+    .roxy--desc{
+        width: 100%;
+    }
+
+    .roxy--desc--para{
+        margin-bottom: 1.5rem;
+    }
+
+    .roxy--arrow--down{
+        bottom: -17%;
+        right: 8.5%;
+    }
+
+    .news--title--rx{
+        text-align: center;
+        line-height: 3.5rem;
+    }
+}
+
+@media only screen and (max-width:576px){
+    .this--roxy{
+        background-image: url(../img/news2.png);
+        margin-bottom: 1.5rem;
+    }
+
+    .roxy--arrow--down{
+        width: 2rem;
+
+        bottom: -13%;
+        right: 10%;
+    }
+
+    .news--title--rx{
+        width: 15rem;
+        font-size: 1.5rem;
+        line-height: 1.75rem;
+
+        margin-top: 3rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .news--title--folup--rx{
+        font-size: 0.875rem;
+        line-height: 2rem;
+
+        margin-bottom: 1.5rem;
+    }
+
+    .roxy--desc{
+        margin-bottom: 4rem;
+    }
+
+    .roxy--desc--para{
+        font-size: 0.875rem;
+        line-height: 1.75rem;
+    }
+
+    .roxy--tb{
+        font-size: 0.875rem;
+        line-height: 1.75rem;
+    }
+
+    .roxy--th.lbb{
+        width: 35%;
+    }
+}
+/* ============================== Roxy ============================== */
+/* ============================== Dreamland ============================== */
+/* Title */
+.news--title--dl{
+    font-weight: 600;
+    font-size: 2.9rem;
+    line-height: 3rem;
+
+    color: #7EAF15;
+    margin-top: 4rem;
+    margin-bottom: 1.5rem;
+
+    text-align: center;
+}
+
+.news--title--folup--dl{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 2rem;
+
+    margin-bottom: 3rem;
+}
+
+/* Landing Image */
+.this--dream{
+    background-image: url(../img/another--news1.png);
+    background-size: cover;
+
+    margin-bottom: 3rem;
+    width: 100%;
+}
+
+@media only screen and (max-width:992px){
+
+    .news--title--dl{
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+}
+
+@media only screen and (max-width:576px){
+    .this--dream{
+        background-image: url(../img/news1.png);
+        margin-bottom: 1.5rem;
+    }
+
+    .news--title--dl{
+        max-width: 20rem;
+        font-size: 1.3rem;
+        line-height: 1.75rem;
+
+        margin-top: 3rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .news--title--folup--dl{
+        font-size: 0.875rem;
+        line-height: 2rem;
+
+        margin-bottom: 1.5rem;
+    }
+
+}
+/* ============================== Dreamland ============================== */
+/* ============================== Next ============================== */
+.next--desc--para{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 2rem;
+}
+
+.nextnp--arrow{
+    margin-top: 2rem;
+    height: 7.75rem;
+}
+
+.wadah.nxt{
+    padding: 0px 7.887%;
+    width: 70%;
+}
+
+.news--title--nx{
+    font-weight: 600;
+    font-size: 2.9rem;
+    line-height: 3rem;
+
+    color: #7EAF15;
+    margin-top: 4rem;
+    margin-bottom: 1.5rem;
+
+    text-align: center;
+}
+
+.news--title--folup--nx{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 2rem;
+
+    margin-bottom: 3rem;
+}
+
+/* Landing Image */
+.this--next{
+    background-image: url(../img/another--news3.png);
+    background-size: cover;
+
+    margin-bottom: 3rem;
+    width: 100%;
+}
+
+@media only screen and (max-width:992px){
+
+    .news--title--rx{
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+}
+
+@media only screen and (max-width:576px){
+    .this--next{
+        background-image: url(../img/news3.png);
+        margin-bottom: 1.5rem;
+    }
+
+    .news--title--nx{
+        max-width: 20rem;
+        font-size: 1.3rem;
+        line-height: 1.75rem;
+
+        margin-top: 3rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .news--title--folup--nx{
+        font-size: 0.875rem;
+        line-height: 2rem;
+
+        margin-bottom: 1.5rem;
+    }
+
+    .wadah.nxt{
+        padding: 0px 7.887%;
+        width: 100%;
+    }
 
 }
