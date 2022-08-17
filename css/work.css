@@ -379,10 +379,10 @@
     font-family: 'IBM Plex Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 2vh;
     line-height: 28px;
     color: #FFFFFF;
-    width: 258px;
+    width: 100%;
 }
 
 .work-m .wrapread .readmore .services-m
