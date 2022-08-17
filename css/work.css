@@ -12,6 +12,11 @@
     margin-top: 10vh;
 }
 
+.wrapwork .work .workservice
+{
+    position: absolute; 
+    margin-top: 100px;
+}
 .wrapwork .work .consulting h1
 {
     font-family: 'IBM Plex Sans';
@@ -203,4 +208,212 @@
 {
     width: 100%; 
     height: 171.5vh;
+}
+
+
+/* responsive */
+
+@media only screen and (max-width: 1280px)
+{
+    .wrapwork .work .consulting
+    {
+        margin-left: 10vw;
+    }
+
+    .wrapwork .work .consulting2
+    {
+        margin-top: 1vh;
+    }
+    .wrapwork .work .consulting3
+    {
+        margin-top: 1vh;
+    }
+}
+
+@media only screen and (max-width: 1080px)
+{
+    .wrapwork .work .workservice
+    {
+        margin-top: 10vh;
+    }
+    .wrapwork .work .consulting
+    {
+        margin-top: -5vh;
+        margin-left: 10vw;
+    }
+
+    .wrapwork .work .consulting2
+    {
+        margin-top: -1vh;
+    }
+    .wrapwork .work .consulting3
+    {
+        margin-top: -1vh;
+    }
+
+    .wrapwork .work2  .gambarkiri .buildservis
+    {
+        margin-top: 130vh;
+    }
+    .wrapwork .work2  .gambarkiri .buildservis .servistext h2
+    {
+        width: 70%;
+    }
+
+    .wrapwork .work2  .gambarkanan .wrapbuildtext .buildtext h2
+    {
+        width: 100%;
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width:992px)
+{
+
+
+.work-m .wraptitle-m .title-m 
+{
+    position: absolute; 
+    margin-top: 15vh; 
+    background-color: aqua;
+}
+.work-m .wraptitle-m .title-m .title2 h1
+{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 31px;
+    color: #FFFFFF;
+}
+
+.work-m .wraptitle-m .title-m .consulting h2
+{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+    color: #7EAF15;
+}
+
+.work-m .wraptitle-m .title-m .consulting h3
+{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: #FFFFFF;
+    width: 73%;
+}
+
+.work-m .wraptitle-m .title-m .consulting
+{
+    margin-left: 20px;
+    margin-top: 32px;
+}
+
+.work-m .wraptitle-m .title-m .consulting h3 ul
+{
+    margin-top: 20px;
+}
+
+.work-m .wraptitle-m .title-m .consulting h3 .arrowm
+{
+    margin-left: 69vw;
+    margin-top: -10vh;
+}
+.work-m .wrappreconstruc .construc-m .wrap-cons
+{
+    margin-top: 10vh;
+}
+
+.work-m .wrappreconstruc .construc-m .wrap-cons .management
+{
+    margin-left: 10vw;
+}
+
+.work-m .wrappreconstruc .construc-m .wrap-cons .close
+{
+    margin-top: 10vh;
+    margin-left: -5vw;
+}
+
+.work-m .wrappreconstruc .construc-m  h2
+{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+    color: #7EAF15;
+}
+.work-m .wrappreconstruc .construc-m  ul li
+{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.work-m .wrapread .readmore
+{
+    margin-left: 92px;
+    margin-top: 45px;
+}
+.work-m .wrapread .readmore h2
+{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px; 
+    color: #7EAF15;
+}
+
+.work-m .wrapread .readmore p
+{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: #FFFFFF;
+    width: 258px;
+}
+
+.work-m .wrapread .readmore .services-m
+{
+    margin-left: -21vw;
+    margin-top: 10vh;
+}
+
+.work-m .wrapread .readmore .services-m p 
+{
+    width: 100%;
+}
+
+.work-m .wrapread .readmore button
+{
+    width: 167px;
+    height: 37px;
+    border: 1px solid #7EAF15;
+    background: transparent;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.work-m .wrapread .readmore #myBtn2 .iconify
+{
+    transform: rotate(180deg);
+}
+
+
 }
