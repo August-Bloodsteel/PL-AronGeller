@@ -75,6 +75,20 @@
     left: -23%;
 }
 
+.wp--arrow--sm1{
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+
+    width: 10.5rem;
+
+    top: 0%;
+    left: 35%;
+}
+
+.desc1--left--sm1{
+    margin-bottom: 4rem;
+}
+
 /* Paragraph */
 .long--para{
     text-align: left;
@@ -142,6 +156,7 @@
 
 .another--archi--img{
     width: 100%;
+    height: 100%;
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
 
@@ -216,6 +231,7 @@
         margin-bottom: 0.5rem;
     }
 
+
     .long--para{
         font-size: 0.875rem;
     }
@@ -241,5 +257,13 @@
 
     .archi--para--holder.rev{
         display: flex;
+    }
+
+    .skip2{
+        margin-bottom: 3rem;
+    }
+
+    .desc1--left--sm1{
+        margin-bottom: 3rem;
     }
 }
