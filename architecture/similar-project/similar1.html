@@ -1,0 +1,94 @@
+<!-- ============================ Start Architecture Section ============================ -->
+<section class="architecture">
+
+    <div class="wadah arc d-flex flex-column">
+
+        <!-- Title -->
+        <div class="archi--title--holder col d-flex flex-column align-items-center justify-content-center">
+            <h1 class="archi--title">Melasti Luxury Residence</h1>
+            <p class="archi--title--loc">Bali, Indonesia</p>
+        </div>
+
+        <!-- Landing Img -->
+        <div class="archi--landing col d-flex justify-content-center align-items-center">
+            <img src="../../img/architec2.png" alt="Melasti Luxury Residence">
+        </div>
+        
+        <!-- Architecture Description 1 -->
+        <div class="archi--desc1 d-flex flex-column flex-lg-row">
+            <div class="desc1--left--sm1 position-relative col d-flex flex-column justify-content-lg-between align-items-start">
+
+                <div>
+                    <h1 class="pjn--063">PROJECT NUMBER: 063</h1>
+
+                    <table class="d1--up">
+
+                        <tr>
+                            <th class="d1--up--tb1">Building type</th>
+                            <th class="d1--up--tb1">: Villa community</th>
+                        </tr>
+
+                        
+                        <tr>
+                            <th class="d1--up--tb1">Site area</th>
+                            <th class="d1--up--tb1">: 90 m2</th>
+                        </tr>
+
+                    </table>
+                    
+                    <div class="col-offset-1"></div>
+
+                    <img class="d-none d-lg-block d-none wp--arrow--sm1 position-absolute" src="../../img/Arrowcrane.svg" alt="Snake Arrow">
+
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="img--list d-flex col flex-column justify-content-center align-items-center">
+            <img class="archi--list skip" src="../../img/archi--list2--1.png" alt="Architecture Blue Print">
+            <img class="archi--list skip" src="../../img/archi--list2--2.png" alt="Architecture Blue Print">
+            <img class="archi--list skip" src="../../img/archi--list2--3.png" alt="Architecture Blue Print">
+            <img class="archi--list skip2" src="../../img/archi--list2--4.png" alt="Architecture Blue Print">
+        </div>
+
+
+        <!-- Another Architecture -->
+        <div class="another--archi col d-flex flex-column justify-content-center align-items-center">
+            <h1 class="another--archi--title">Similar Project</h1>
+
+            <div class="archi--card--holder d-flex flex-column flex-md-row justify-content-between">
+
+                <div class="archi--card left col"><a href="../architectureindex.html"><img class="another--archi--img" src="../../img/another--architec1.png" alt="Another Project"></a></div>
+                <div class="archi--card col"><a href="./similar-2index.html"><img class="another--archi--img" src="../../img/another--architec3.png" alt="Another Project"></a></div>
+                <div class="archi--card right col"><a href="./similar-3index.html"><img class="another--archi--img" src="../../img/another--architec4.png" alt="Another Project"></a></div>
+                
+            </div>
+        </div>
+        
+    </div>        
+
+</section>
+<!-- ============================ End Architecture Section ============================ -->
+
+<script>
+
+    let btnMore = document.getElementById("btnMore")
+    let paraHolder = document.getElementById("paraHolder")
+    let moreArrow = document.getElementById("moreArrow")
+    btnMore.innerText = "More"
+
+    function btnReadMore(){
+        paraHolder.classList.toggle ("rev")
+
+        if(paraHolder.classList == "archi--para--holder col rev"){
+            btnMore.innerText = "Less"
+            moreArrow.style.transform = "ScaleY(-1)"
+        } else {
+            btnMore.innerText = "More"
+            moreArrow.style.transform = "Scale(1)"
+        }
+    }
+
+</script>
