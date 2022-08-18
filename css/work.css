@@ -275,7 +275,6 @@
 {
     position: absolute; 
     margin-top: 15vh; 
-    background-color: aqua;
 }
 .work-m .wraptitle-m .title-m .title2 h1
 {
@@ -371,7 +370,7 @@
     font-weight: 600;
     font-size: 16px;
     line-height: 21px; 
-    color: #7EAF15;
+    color: #7EAF15; 
 }
 
 .work-m .wrapread .readmore p
@@ -382,7 +381,12 @@
     font-size: 2vh;
     line-height: 28px;
     color: #FFFFFF;
-    width: 100%;
+
+}
+
+.work-m .wrapread .readmore #ext
+{
+    width: 97%;
 }
 
 .work-m .wrapread .readmore .services-m
@@ -393,7 +397,7 @@
 
 .work-m .wrapread .readmore .services-m p 
 {
-    width: 100%;
+    width: 95%;
 }
 
 .work-m .wrapread .readmore button
@@ -416,4 +420,82 @@
 }
 
 
+}
+
+@media only screen and (max-width:325px)
+{
+    .work-m .wraptitle-m .title-m 
+    {
+        position: absolute; 
+        margin-top: 12vh; 
+    }
+    .work-m .wraptitle-m .title-m .title2 h1
+    {
+        font-size: 23px;
+    }
+    
+    .work-m .wraptitle-m .title-m .consulting h2
+    {
+        font-size: 15px;
+    }
+    
+    .work-m .wraptitle-m .title-m .consulting h3
+    {
+        font-size: 13px;
+    }
+    
+    .work-m .wraptitle-m .title-m .consulting
+    {
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    
+    .work-m .wraptitle-m .title-m .consulting h3 .arrowm
+    {
+        margin-left: 66vw;
+        margin-top: -10vh;
+    }
+
+
+    .work-m .wrapread .readmore
+    {
+        margin-left: 92px;
+        margin-top: 5vh;
+    }
+    .work-m .wrapread .readmore h2
+    {
+        font-family: 'IBM Plex Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 21px; 
+        color: #7EAF15; 
+    }
+    
+    .work-m .wrapread .readmore p
+    {
+        font-family: 'IBM Plex Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.7vh;
+        line-height: 28px;
+        color: #FFFFFF;
+    
+    }
+    
+    .work-m .wrapread .readmore #ext
+    {
+        width: 97%;
+    }
+    
+    .work-m .wrapread .readmore .services-m
+    {
+        margin-left: -21vw;
+        margin-top: 10vh;
+    }
+    
+    .work-m .wrapread .readmore .services-m p 
+    {
+        width: 95%;
+    }
 }
