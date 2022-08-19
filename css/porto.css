@@ -35,3 +35,46 @@
 {
     margin-right: 110px;
 }
+
+
+/* responsive */
+@media only screen and (max-width: 1080px)
+{
+    .porto .portnumber .num
+    {
+        font-size: 24px;
+    }
+    .porto .portnumber h5
+    {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .porto #num1
+    {
+        margin-right: 80px;
+    }
+}
+
+@media only screen and (max-width: 992px)
+{
+    .porto .portnumber .num
+    {
+        font-size: 24px;
+    }
+    .porto .portnumber h5
+    {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .porto  #num1-m
+    {
+        margin-right: 5vw;
+    }
+
+    .porto-m h5
+    {
+        margin-top: 1.2vh;
+        margin-left: 1.5vw;
+    }
+}
