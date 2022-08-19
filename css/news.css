@@ -432,14 +432,6 @@
     width: 100%;
 }
 
-@media only screen and (max-width:992px){
-
-    .news--title--rx{
-        font-size: 2.5rem;
-        line-height: 3rem;
-    }
-}
-
 @media only screen and (max-width:576px){
     .this--next{
         background-image: url(../img/news3.png);
