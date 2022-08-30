@@ -28,3 +28,40 @@ html,body{
     scroll-behavior: smooth;
     scroll-padding-top: 100px;
 }
+
+.terbang--holder{
+    position: fixed;
+    bottom: 17%;
+    right: 7%;
+    
+    z-index: 10;
+    opacity: 50%;
+    transition: 0.7s;
+}
+
+.terbang--holder:hover{
+    opacity: 100%;
+}
+
+.terbang{
+    color: white;
+
+    height: 3.1rem;
+    width: 3.1rem;
+
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.terbang > .iconify{
+    height: 3rem;
+    width: 3rem;
+
+    background-color: rgba(126, 175, 21, 1);
+    border-radius: 100%;
+    padding: 3px;
+}
+
+.terbang:hover{
+    color: white;
+}
