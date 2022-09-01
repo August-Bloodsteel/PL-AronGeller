@@ -525,7 +525,6 @@
 
     .header-mobile .wrap-m .m1 .we-m h1
     {
-        width: 63%;
         font-size: 3.4vh;
         line-height: 3.4vh;
         margin-left: 3.3vh;
@@ -533,9 +532,10 @@
 
     .header-mobile .wrap-m .m1 .we-m .panahwe
     {
-        width: 164px;
-        height: 45.03px;
-        margin-top: -120px; 
+        width: 40vw;
+        height: auto;
+        margin-top: -19vh;
+        margin-left: 7vw; 
     }
 
     .header-mobile .wrap-m .m2 .num-m .headnum-m span
