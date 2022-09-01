@@ -592,6 +592,11 @@
         margin-top: 0vh;
     }
 
+    .header-mobile .wrap-m .m4 #change-m-2
+    {
+        margin-top: 2vh;
+    }
+
 
     .header-mobile .wrap-m .m4 .change-m
     {
@@ -617,10 +622,9 @@
     {
         width: 20vw;
         height: 15vh;
-        margin-top: -100px;
         position: relative;
-        top: 110px;
-        margin-left: 50vw;
+        top: 18vh;
+        margin-left: 45vw;
     }
 
     .header-mobile .wrap-m .m4 #see-m-1
