@@ -568,7 +568,7 @@
     .header-mobile .wrap-m .m3 .hit-m .up-m
     {
         width: 90%;
-        height: 8vh;
+        height: 7vh;
     }
 
     .header-mobile .wrap-m .m3 .hit-m .up-m a
@@ -578,7 +578,7 @@
 
     .header-mobile .wrap-m .m3 .hit-m .up-m .iconify
     {
-        font-size: 4vh;
+        font-size: 24px;
         margin-right: 0;
         position: relative;
         bottom: 2px;
@@ -587,15 +587,22 @@
 
 
 
+    .header-mobile .wrap-m .m4 #change-m-1
+    {
+        margin-top: 0vh;
+    }
+
+
     .header-mobile .wrap-m .m4 .change-m
     {
-        margin-bottom: 47vh;
+        margin-bottom: 0;
+        position: absolute;
     }
     
 
     .header-mobile .wrap-m .m4 .change-m h1
     {
-        font-size: 4.43vh;
+        font-size: 4vh;
     }
 
     .header-mobile .wrap-m .m4 .change-m .bulet
@@ -603,9 +610,7 @@
         width: 25vw;
         height: 20vh;
         margin-top: -100px;
-        position: relative;
-        top: 87px;
-        margin-left: 55vw;
+        margin-left: 50vw;
     }
 
     .header-mobile .wrap-m .m4 .change-m .arsi
@@ -618,11 +623,18 @@
         margin-left: 50vw;
     }
 
+    .header-mobile .wrap-m .m4 #see-m-1
+    {
+        margin-top: 24vh;
+    }
+    .header-mobile .wrap-m .m4 #see-m-2
+    {
+        margin-top: 24vh;
+    }
     .header-mobile .wrap-m .m4 .see-m
     {
-        margin-bottom: 5vh;
         width: 90%;
-        height: 8vh;
+        height: 7vh;
     }
 
     .header-mobile .wrap-m .m4 .see-m a
