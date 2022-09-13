@@ -371,7 +371,13 @@
     margin-bottom: 10vh;
 
 }
-
+.header-mobile .wrap-m .m1 .gm1
+{
+ width:100%; 
+ height:auto; 
+ border-bottom: 0.01px solid rgba(255, 255, 255, 0.10);
+ margin-top: 2vh;
+}
 .header-mobile .wrap-m .m1 .we-m .panahwe
 {
     position: relative; 
@@ -545,7 +551,7 @@
     {
         font-size: 2.7vh;
         /* line-height: 1vh; */
-        line-height: 1.9;
+        line-height: 0;
     }
     
     .header-mobile .wrap-m .m2 .num-m .headnum-m h5
@@ -622,8 +628,8 @@
 
         height: 8vh;
         position: absolute;
-        top: 15.5vh;
-        right: 20vw;
+        top: 12.5vh;
+        right: 12vw;
     }
 
     .header-mobile .wrap-m .m4 .change-m .arsi
