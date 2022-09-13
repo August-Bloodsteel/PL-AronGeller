@@ -628,8 +628,11 @@
 
         height: 8vh;
         position: absolute;
-        top: 12.5vh;
-        right: 12vw;
+ 
+        margin-top: -90px;
+        margin-left: 50%;
+        /* top: 15.5vh;
+        right: 18vw; */
     }
 
     .header-mobile .wrap-m .m4 .change-m .arsi
