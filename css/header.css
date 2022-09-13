@@ -450,6 +450,9 @@
 {
     position: absolute;
     margin-bottom: 150vh;
+    background: rgba(0, 0, 0, 0.25);
+    height: 8vh;
+    width: 100vw;
 }
 
 .header-mobile .wrap-m .m4 .change-m h1
@@ -540,22 +543,24 @@
 
     .header-mobile .wrap-m .m2 .num-m .headnum-m span
     {
-        font-size: 3.3vh;
-        line-height: 3.3vh;
+        font-size: 2.7vh;
+        /* line-height: 1vh; */
+        line-height: 1.9;
     }
     
     .header-mobile .wrap-m .m2 .num-m .headnum-m h5
     {
-        font-size: 1.9vh;
-        line-height: 1.9vh;
-        margin-top: 10px;
+        font-size: 12px;
+        line-height: 16px;
+        margin-left: 2vw;
     }    
 
     .header-mobile .wrap-m .m2 .num-m .headnum-m
     {
-        margin-bottom: 1vh;
-        margin-top: 1vh;
+        margin-bottom: 0px;
+        margin-top: 0px;
         margin-left: 4vw;
+        /* height: 20px; */
     }
     
 
@@ -567,8 +572,9 @@
 
     .header-mobile .wrap-m .m3 .hit-m .up-m
     {
-        width: 90%;
-        height: 7vh;
+        width: 52%;
+        height: 5.5vh;
+        margin-left: 6vw;
     }
 
     .header-mobile .wrap-m .m3 .hit-m .up-m a
@@ -589,12 +595,12 @@
 
     .header-mobile .wrap-m .m4 #change-m-1
     {
-        margin-top: 0vh;
+        margin-top: 10vh;
     }
 
     .header-mobile .wrap-m .m4 #change-m-2
     {
-        margin-top: 2vh;
+        margin-top: 10vh;
     }
 
 
@@ -602,6 +608,7 @@
     {
         margin-bottom: 0;
         position: absolute;
+
     }
     
 
@@ -612,33 +619,36 @@
 
     .header-mobile .wrap-m .m4 .change-m .bulet
     {
-        width: 25vw;
-        height: 20vh;
-        margin-top: -100px;
-        margin-left: 50vw;
+
+        height: 8vh;
+        position: absolute;
+        top: 15.5vh;
+        right: 20vw;
     }
 
     .header-mobile .wrap-m .m4 .change-m .arsi
     {
         width: 20vw;
-        height: 15vh;
-        position: relative;
-        top: 18vh;
-        margin-left: 45vw;
+        height: 8vh;
+        position: absolute;
+        top: 20vh;
+        margin-left: 50vw;
+        transform: rotate(-40deg);
     }
 
     .header-mobile .wrap-m .m4 #see-m-1
     {
-        margin-top: 24vh;
+        margin-top: 20vh;
     }
     .header-mobile .wrap-m .m4 #see-m-2
     {
-        margin-top: 24vh;
+        margin-top: 20vh;
     }
     .header-mobile .wrap-m .m4 .see-m
     {
-        width: 90%;
-        height: 7vh;
+        width: 52%;
+        height: 5.5vh;
+        margin-left: 6vw;
     }
 
     .header-mobile .wrap-m .m4 .see-m a
