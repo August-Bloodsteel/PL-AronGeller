@@ -153,6 +153,61 @@
     height: 35vh;
 }
 
+.header .wrapbanner23  .banner45 .port .folio h1
+{
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+    color: #FFFFFF;
+}
+
+.header .wrapbanner23  .banner45 .port
+{
+    margin-top: 20vh;
+}
+.header .wrapbanner23  .banner45 .port .folio
+{
+    margin-left: 2vw;
+}
+.header .wrapbanner23  .banner45 .port .folio .port-learn .iconify
+{
+    font-size: 3.3vh;
+}
+
+.header .wrapbanner23  .banner45 .port .folio .port-learn a
+{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.2vh;
+    line-height: 21px;
+    color: #FFFFFF;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+.header .wrapbanner23  .banner45 .port .folio .port-learn a:hover
+{
+    color: black;
+}
+
+.header .wrapbanner23  .banner45 .port .folio .port-learn
+{
+    width: 11vw;
+    height: 6.6vh;
+    background: rgba(12, 12, 12, 0.5);
+    border: 1px solid #FFFFFF;
+    transition: 0.5s;
+}
+.header .wrapbanner23  .banner45 .port .folio .port-learn:hover
+{
+    width: 12vw;
+    background: #7EAF15;
+    border: 1px solid #7EAF15
+}
+
 .header .wrapbanner567 .banner5 .wrapaward
 {
     position: absolute;
