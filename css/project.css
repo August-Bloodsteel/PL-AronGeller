@@ -531,13 +531,15 @@
     
     .project .wrap-menu .tab-content .tab-pane .villa .project1 .saintimg2 #saint2
     {
-        margin-right: 20px;
+        margin-right: 200px;
     }
     .project .wrap-menu .tab-content .tab-pane .villa .project1 .saintimg2 #saint3
     {
         margin-right: 20px;
     }
     /* end saint */
+
+    /* fashion */
     .project .wrap-menu .tab-content .tab-pane .villa .project1 .fashionimg1 img
     {
         width: 315px;
@@ -566,13 +568,12 @@
     {
         margin-right: 17px;
     }
-    
-    
-    /* fashion */
-    
-    
     /* end fashion */
     
+    /* villa nakar */
+
+    /* end villa nakar */
+
     /* project 2 */
     
     /* cargo */
