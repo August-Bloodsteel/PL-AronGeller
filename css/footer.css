@@ -34,3 +34,15 @@
         font-size: 1.125rem;
     }
 }
+
+@media only screen and (max-width:576px) {
+    .footer{
+        background-color: black;
+        padding: 0.625rem 1.5rem;
+    }
+
+    .footer .icons ul li > a{
+        color: #7EAF15;
+    }
+    
+}
