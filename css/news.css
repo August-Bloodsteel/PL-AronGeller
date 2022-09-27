@@ -15,6 +15,10 @@
 }
 
 /* News Title */
+.news--title-holder{
+    position: relative;
+}
+
 .news--title{
     font-weight: 600;
     font-size: 2rem;
@@ -126,6 +130,14 @@
     height: 100%;
 }
 
+.back--btn{
+    position: absolute;
+    height: 1.2rem;
+
+    left: -3%;
+    top: 27%;
+}
+
 @media only screen and (max-width:1200px){
 
     .cc{
@@ -196,6 +208,10 @@
 
     .news--sum{
         font-size: 0.875rem;
+    }
+
+    .back--btn{
+        height: 1rem;
     }
 }
 /* ============================== News ============================== */
