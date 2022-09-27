@@ -31,23 +31,41 @@
 }
 
 /* News Cards */
-.kartu{
-    min-height: 42rem;
-    margin-bottom: 5.5rem;
+.news--holder{
+    gap: 1.25rem;
+    width: 100%;
 
+    margin-bottom: 10.75rem;
 }
 
-.news--holder{
+.news--holder--2{
     gap: 1.25rem;
 }
 
+
 .card--content{
     height: 100%;
+    position: relative;
+}
+
+.cc{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0%;
+    transition: 0.7s;
+
+    padding: 5.875rem 3.75rem;
+}
+
+.cc:hover{
+    opacity: 100%;
 }
 
 .news--thumb{
-    height: 27.5rem;
-    margin-bottom: 1.5rem;
+    width: 100%;
 }
 
 /* News Headline */
@@ -61,6 +79,9 @@
 }
 
 .news--sum{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
     margin: 0;
 }
 
@@ -100,16 +121,27 @@
 
 }
 
+.h--news--btn{
+    width: 100%;
+    height: 100%;
+}
+
 @media only screen and (max-width:1200px){
-    .news--thumb{
-        height: 19.5rem;
+
+    .cc{
+        padding: 2rem 1rem;
     }
+
 }
 
 
 @media only screen and (max-width:992px) {
     .kartu{
         min-height: auto;
+    }
+
+    .news--holder{
+        margin-bottom: 5rem;
     }
 
     .news--title{
@@ -121,7 +153,6 @@
     }
 
     .news--thumb{
-        height: auto;
         width: 100%;
     }
 
@@ -144,12 +175,14 @@
 }
 
 @media only screen and (max-width:576px){
-    .kartu{
-        margin-bottom: 4rem;
-    }
 
     .news--holder{
-        gap: 0rem;
+        gap: 0.5rem;
+        margin-bottom: 3rem;
+    }
+
+    .news--holder--2{
+        gap: 0.5rem;
     }
 
     .news--title{
