@@ -17,13 +17,32 @@
     padding: 0;
 }
 
+.ike--line{
+    height: 1px;
+    width: 100%;
+    background-color: #7EAF15;
+}
+
 /* Architecture Title */
+
+.archi--jud{
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 3.875rem;
+
+    text-align: center;
+
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    color: #7EAF15;
+}
+
 .archi--title{
     font-weight: 600;
     font-size: 2rem;
     line-height: 42px;
 
-    margin-top: 4rem;
+    margin-top: 2rem;
     margin-bottom: 0;
 }
 
@@ -206,12 +225,16 @@
 
 @media only screen and (max-width:576px){
 
+    .archi--jud{
+        font-size: 2rem;
+        margin-top: 2.5rem;
+    }
+
     .archi--title{
         font-size: 1.5rem;
         line-height: 2rem;
         text-align: center;
 
-        margin-top: 3rem;
         margin-bottom: 0.5rem;
     }
 

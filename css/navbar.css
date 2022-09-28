@@ -21,6 +21,10 @@
     transition: 0.7s;
 }
 
+.navbar--brand > img {
+    width: 3.75rem;
+}
+
 .navbar .navbar-nav .nav-item .nav-link{
     color: white;
     padding: 0rem;
@@ -131,6 +135,10 @@
     }
     .navbar .navbar-nav.mid .nav-item .nav-link:hover:after{
         width: 0%;
+    }
+
+    .navbar--brand > img {
+        width: 3.5rem;
     }
 }
 

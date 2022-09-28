@@ -19,9 +19,6 @@
         <!-- Left Img -->
         <div class="col-xl-4 col-md-5 col-12 d-flex flex-column align-items-center position-relative">
 
-            <!-- <h1 class="cont-title hid d-flex d-block d-lg-none justify-content-center position-relative">
-                Contact <img class="cont--arrow1 hid" src="../img/contact--arrow1.svg" alt="">
-            </h1> -->
             <div class="hid--holder d-flex d-lg-none justify-content-center position-relative">
                 <h1 class="cont--title hid nm">
                     Contact
@@ -40,11 +37,6 @@
         <div class="col-xl-8 col-lg-7 col-12">
 
             <form>
-
-                <div>
-                    <h1 class="cont--label">E-mail</h1>
-                    <input class="cont--form name" type="text" name="email" id="email" placeholder="Enter your e-mail" value="" required>
-                </div>
     
                 <div>
                     <h1 class="cont--label">Message</h1>
@@ -69,12 +61,9 @@
 <script>
     function gotowhatsapp() {
         
-        var email = document.getElementById("email").value;
         var massage = document.getElementById("massage").value;
     
-        var url = "https://wa.me/+62895413369346?text="
-        + "Email: " + email  + "%0a"
-        + massage; 
+        var url = "https://wa.me/+62895413369346?text=" + massage; 
     
         window.open(url, '_blank').focus();
     }
