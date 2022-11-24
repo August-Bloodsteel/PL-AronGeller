@@ -43,6 +43,23 @@ $(document).ready(function () {
         $('#sip').css("color", "white").css("transition", "0.5s");
         $('#ubud').toggle();
     });
+
+
+    $('#bt3').on('click', function()
+    {
+        $('#bt4').css("display", "flex");
+        $('#bt3').toggle();
+        $('#sip1').css("color", "#7EAF15").css("transition", "0.5s");
+        $('#natura').toggle();
+    });
+
+    $('#bt4').on('click', function()
+    {
+        $('#bt4').css("display", "none");
+        $('#bt3').toggle();
+        $('#sip1').css("color", "white").css("transition", "0.5s");
+        $('#natura').toggle();
+    });
 });
 
 // $(document).ready(function () {

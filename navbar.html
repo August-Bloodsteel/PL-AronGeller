@@ -47,12 +47,21 @@
       </div> 
 
       <!-- Language Navigation -->
-      <select onchange="doGTranslate(this);" class="lg"> 
-        <option>Select Language</option>                
-      <option value="en|ru" ></i> Russia</option>
-        <option value="en|en" >English</option> 
-      </select>  
-    </div>
+      <div class="lang--nav align-self-center">
+
+        <ul class="navbar-nav right d-flex flex-row">
+            
+          <li class="nav-item">
+            <a class="nav-link active2" href="#">ENG</a>
+          </li>
+    
+          <li class="nav-item">
+            <a class="nav-link" href="#">RUS</a>
+          </li>
+        
+        </ul>
+
+      </div>   
     
 
     <button class="btn--nav d-block d-lg-none" id="btnNav" onclick="btnChange()"></button>

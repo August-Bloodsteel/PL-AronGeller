@@ -54,7 +54,11 @@
 {
     display: none;
 }
-.project .villa .allvilla .button #hide
+.project .villa .allvilla .button #bt4
+{
+    display: none;
+}
+.project .villa .allvilla .button #hminus2
 {
     display: none;
 }
