@@ -19,6 +19,9 @@
 @import url(./news.css);
 
 @import url(./archi.css);
+@import url(./newporto.css);
+
+@import url(./old.css);
 
 html,body{
     margin: 0%;
@@ -27,6 +30,11 @@ html,body{
     height: 100%;
     scroll-behavior: smooth;
     scroll-padding-top: 100px;
+}
+#header {
+    display: block;
+    background-color: #fff;
+    padding: 0%;
 }
 
 .terbang--holder{

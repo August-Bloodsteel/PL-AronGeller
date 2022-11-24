@@ -1,0 +1,79 @@
+.project .villa .tit .gariskiri
+{
+    border: 1px solid #7EAF15;
+    border-bottom: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    width:  520px;
+}
+
+.project .villa .tit .gariskanan
+{
+    border: 1px solid #7EAF15;
+    border-bottom: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    width:  520px;
+}
+
+.project .villa .tit .tit1 h1
+{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    color: #7EAF15;
+    /* margin-right: 88px;
+    margin-left: 88px; */
+}
+
+.project .villa .allvilla .button
+{
+    /* width: 32px;
+    height: 32px;
+    background-color: #272727; */
+}
+
+.project .villa .allvilla .button button
+{
+    border: none;
+    width: 32px;
+    height: 32px;
+    background-color: #272727;
+	color: inherit;
+	border: none;
+	padding: 0;
+    color: white;
+    display: flex;
+    font-size: 40px;
+
+}
+
+.project .villa .allvilla .button #bt2
+{
+    display: none;
+}
+.project .villa .allvilla .button #hide
+{
+    display: none;
+}
+
+.project .villa .allvilla .button span
+{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 31px;
+    margin-left: 21px;
+    color: #FFFFFF;
+    display: inline;
+}
+
+
+/* .project .wrapvilla .allvilla .button button
+{
+    display: none;
+} */
+

@@ -23,6 +23,112 @@ var btnText6 = document.getElementById("down6");
 var btnText26 = document.getElementById("up6");
 
 
+// var bt1 = document.getElementById("bt1");
+// var bt2 = document.getElementById("bt2");
+var bt1 = document.getElementById("mmk");
+
+$(document).ready(function () {
+    $('#bt1').on('click', function()
+    {
+        $('#bt2').css("display", "flex");
+        $('#bt1').toggle();
+        $('#sip').css("color", "#7EAF15").css("transition", "0.5s");
+        $('#ubud').toggle();
+    });
+
+    $('#bt2').on('click', function()
+    {
+        $('#bt2').css("display", "none");
+        $('#bt1').toggle();
+        $('#sip').css("color", "white").css("transition", "0.5s");
+        $('#ubud').toggle();
+    });
+});
+
+// $(document).ready(function () {
+//     $('#bt1').on('click', function()
+//     {
+//         $('#minus').toggle();
+//         $('#tambah').toggle();
+//         $("#sip").css("color", "white");
+//         $("#sip").css("color", "red");
+        
+//         // $('#sip').toggle(function ()
+//         // {
+//         //     $("#sip").css("color", "red");
+//         // },
+//         // function()
+//         // {
+//         //     $("#sip").css("color", "white");
+//         // });
+//         $('#ubud').toggle(1000);
+//     });
+// });
+
+// $('#user_button').toggle(function () 
+// {
+//     $("#user_button").css({borderBottomLeftRadius: "0px"});
+// }, 
+// function () 
+// {
+//     $("#user_button").css({borderBottomLeftRadius: "5px"});
+// });
+
+function plis()
+{
+    // var plus = document.getElementById("tambah");
+    // var minus = document.getElementById("minus");
+    // var sip = document.getElementById("sip")
+
+    // if(plus.style.display == "none")
+    // {
+    //     minus.style.display = "flex"
+    //     sip.style.color = "red"
+    // }
+    // else if(minus.style.display == "none")
+    // {
+    //     plus.style.display = "flex"
+    // }
+    // else
+    // {
+    //     minus.style.display = "none"
+    //     sip.style.color = "white"
+    // }
+
+    // if(plus.style.display == "none" )
+    // {
+    //     minus.style.display = "flex";
+    // }
+    // else if(minus.style.display == "none")
+    // {
+    //     plus.style.display = "flex";
+    // }
+    // else
+    // {
+    //     minus.style.display = "none"
+    // }
+
+    // if(minus.style.display === "flex")
+    // {
+    //     plus.style.display = "none"
+    //     minus.style.display = "none"
+        
+    // }
+  
+   
+    // plus.style.display = "none"
+    // minus.style.display = "flex"
+    // sip.style.display = "none;"
+}
+// function minis()
+// {
+//     plus.style.display = "flex"
+//     minus.style.display = "none"
+//     sip.style.display = "inline;"
+// }
+
+
+
 function myFunction() 
 {
     btnText.style.display = "none"
@@ -98,8 +204,7 @@ function open6()
     btnText6.style.display = "none"
     btnText26.style.display = "inline";
     moreText6.style.display = "inline";
-}
-
+} 
 function hidetext6()
 {
     btnText26.style.display = "none";

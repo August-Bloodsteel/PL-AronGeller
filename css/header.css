@@ -43,7 +43,7 @@
     font-family: 'IBM Plex Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 2.2vh;
+    font-size: 2.6vh;
     line-height: 21px;
     color: #FFFFFF;
     text-decoration: none;
@@ -73,12 +73,12 @@
 
 .header .wrapbanner23 .banner2 .change .life
 {
-    margin-left: 8vw;
+    margin-left: 9vw;
 }
 .header .wrapbanner23 .banner2 .change
 {
     position: absolute; 
-    margin-top: 64vh; 
+    margin-top: 65vh; 
     width: 50%;
 }
 .header .wrapbanner23 .banner2 .change img
@@ -86,7 +86,7 @@
     position: absolute; 
     width: 7.975911458333333vw;
     height: 12.930747922437673vh;
-    margin-left: 17vw;
+    margin-left: 20vw;
     margin-top: -2.1vh;
 }
 .header .wrapbanner23 .banner2 .change h1
@@ -95,7 +95,7 @@
     font-style: normal;
     font-weight: 700;
     line-height: 72px;
-    font-size: 6vh;
+    font-size: 6.5vh;
     color: #FFFFFF;
     position: absolute;
 }
@@ -403,6 +403,14 @@
     color: black;
 }
 
+.header .banner67 .arrow67 img
+{
+    width: 20%;
+    height: auto;
+    margin-top: -9%;
+
+}
+
 
 
 /* responsive */
@@ -472,6 +480,15 @@
     line-height: 7vh;
     color: #FFFFFF;
     margin-left: 1vw;
+    margin-top: 1vh;
+}
+
+.header-mobile .wrap-m .m2 .panahm2 img
+{
+    width: 20%;
+    height: auto;
+    margin-top: -50%;
+    margin-right: 10%;
 }
 
 
@@ -551,28 +568,32 @@
 .header-mobile .wrap-m .m4 .see-m
 {
     position: absolute;
-    width: 70%;
-    height: 20vh;
+    width: 90%;
+    height: auto;
     background: #7EAF15;
     margin-bottom: 20vh;
+    border-radius: 4px;
 }
 .header-mobile .wrap-m .m4 .see-m  a
 {
     font-family: 'IBM Plex Sans';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 5vh;
     line-height: 21px;
-    color: #000000;
+
+    color: #0C0C0C;
     text-decoration: none;
     position: relative;
     top: 2px;
+    
 }
 .header-mobile .wrap-m .m4 .see-m  .iconify
 {
     font-size: 7vh;
     margin-right: 2vh;
 }
+
 
 @media only screen and (max-width:992px)
 {
