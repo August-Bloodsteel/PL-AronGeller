@@ -21,6 +21,8 @@
 @import url(./archi.css);
 @import url(./newporto.css);
 
+@import url(./old.css);
+
 html,body{
     margin: 0%;
     box-sizing: border-box;
