@@ -1,10 +1,39 @@
+.project .villa .tit
+{
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+}
+
+.project .villa .allvilla .villatext
+{
+    margin-top: 1%;
+}
+
+
+.project .villa .tit #cargokiri
+{
+    border: 1px solid #7EAF15;
+    border-bottom: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    width:  25%;
+}
+.project .villa .tit #cargokanan
+{
+    border: 1px solid #7EAF15;
+    border-bottom: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    width:  25%;
+}
+
 .project .villa .tit .gariskiri
 {
     border: 1px solid #7EAF15;
     border-bottom: 0px;
     border-right: 0px;
     border-left: 0px;
-    width:  410px;
+    width:  30%;
 }
 
 .project .villa .tit .gariskanan
@@ -13,7 +42,7 @@
     border-bottom: 0px;
     border-right: 0px;
     border-left: 0px;
-    width:  410px;
+    width:  30%;
 }
 
 .project .villa .tit .tit1 h1
@@ -21,7 +50,7 @@
     font-family: 'IBM Plex Sans';
     font-style: normal;
     font-weight: 700;
-    font-size: 32px;
+    font-size: 300%;
     line-height: 42px;
     color: #7EAF15;
     /* margin-right: 88px;
@@ -139,6 +168,48 @@
 {
     display: none;
 }
+/* cargo */
+.project .villa .allvilla .button #btcargolift2
+{
+    display: none;
+}
+.project .villa .allvilla .button #btcargo152
+{
+    display: none;
+}
+.project .villa .allvilla .button #btcargo252
+{
+    display: none;
+}
+.project .villa .allvilla .button #btcargo3002
+{
+    display: none;
+}
+.project .villa .allvilla .button #btfunicular2
+{
+    display: none;
+}
+
+/* crane */
+.project .villa .allvilla .button #bttowercrane2
+{
+    display: none;
+}
+.project .villa .allvilla .button #btovercrane2
+{
+    display: none;
+}
+
+/* bridge */
+.project .villa .allvilla .button #btbridge2
+{
+    display: none;
+}
+.project .villa .allvilla .button #bthorse2
+{
+    display: none;
+}
+
 
 
 .project .villa .allvilla .button span
@@ -153,6 +224,79 @@
     display: inline;
 }
 
+
+.project .villa .allvilla .ubud .wrap-img #villaubud
+{
+    width: 50%;
+}
+.project .villa .allvilla .ubud .wrap-img #villaubud #villaubud1
+{
+    width:48.5%; 
+    height:auto;
+}
+.project .villa .allvilla .ubud .wrap-img #villaubud #villaubud2
+{
+    width:48.5%; 
+    height:auto; 
+    margin-left: 1.5%;
+}
+.project .villa .allvilla .ubud .wrap-img #villaubud #villaubud3
+{
+    width:48.5%;
+    height:auto; 
+    margin-top: 1.5%;
+}
+.project .villa .allvilla .ubud .wrap-img #villaubud #villaubud4
+{
+    width:48.5%; 
+    height:auto; 
+    margin-left: 1.5%; 
+    margin-top: 1.5%;
+}
+
+/* mobile */
+
+@media only screen and (max-width: 992px)
+{
+    .project .villa .tit .tit1 h1
+    {
+        font-family: 'IBM Plex Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 180%;
+        line-height: 42px;
+        color: #7EAF15;
+        text-align: center;
+        /* margin-right: 88px;
+        margin-left: 88px; */
+    }
+    .project .villa .tit .tit1 #pass
+    {
+        margin-top: 20%;
+    }
+
+    .project .villa .allvilla .button span
+    {
+        font-size: 18px;
+    }
+
+    .project .villa .tit #jembatankiri
+    {
+        border: 1px solid #7EAF15;
+        border-bottom: 0px;
+        border-right: 0px;
+        border-left: 0px;
+        width:  10%;
+    }
+    .project .villa .tit #jembatankanan
+    {
+        border: 1px solid #7EAF15;
+        border-bottom: 0px;
+        border-right: 0px;
+        border-left: 0px;
+        width:  10%;
+    }
+}
 
 /* .project .wrapvilla .allvilla .button button
 {

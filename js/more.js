@@ -226,6 +226,165 @@ $(document).ready(function () {
         $('#roxy').toggle();
     });
 
+
+    // cargo
+
+    // cargolift
+    $('#btcargolift1').on('click', function()
+    {
+        $('#btcargolift2').css("display", "flex");
+        $('#btcargolift1').toggle();
+        $('#cargoliftsip').css("color", "#7EAF15").css("transition", "0.5s");
+        $('#cargolift').toggle();
+    });
+
+    $('#btcargolift2').on('click', function()
+    {
+        $('#btcargolift2').css("display", "none");
+        $('#btcargolift1').toggle();
+        $('#cargoliftsip').css("color", "white").css("transition", "0.5s");
+        $('#cargolift').toggle();
+    });
+
+    // cargo15
+    $('#btcargo151').on('click', function()
+    {
+        $('#btcargo152').css("display", "flex");
+        $('#btcargo151').toggle();
+        $('#cargo15sip').css("color", "#7EAF15").css("transition", "0.5s");
+        $('#cargo15').toggle();
+    });
+
+    $('#btcargo152').on('click', function()
+    {
+        $('#btcargo152').css("display", "none");
+        $('#btcargo151').toggle();
+        $('#cargo15sip').css("color", "white").css("transition", "0.5s");
+        $('#cargo15').toggle();
+    });
+    // cargo25
+    $('#btcargo251').on('click', function()
+    {
+        $('#btcargo252').css("display", "flex");
+        $('#btcargo251').toggle();
+        $('#cargo25sip').css("color", "#7EAF15").css("transition", "0.5s");
+        $('#cargo25').toggle();
+    });
+
+    $('#btcargo252').on('click', function()
+    {
+        $('#btcargo252').css("display", "none");
+        $('#btcargo251').toggle();
+        $('#cargo25sip').css("color", "white").css("transition", "0.5s");
+        $('#cargo25').toggle();
+    });
+    // cargo300
+    $('#btcargo3001').on('click', function()
+    {
+        $('#btcargo3002').css("display", "flex");
+        $('#btcargo3001').toggle();
+        $('#cargo300sip').css("color", "#7EAF15").css("transition", "0.5s");
+        $('#cargo300').toggle();
+    });
+
+    $('#btcargo3002').on('click', function()
+    {
+        $('#btcargo3002').css("display", "none");
+        $('#btcargo3001').toggle();
+        $('#cargo300sip').css("color", "white").css("transition", "0.5s");
+        $('#cargo300').toggle();
+    });
+    // funicular
+    $('#btfunicular1').on('click', function()
+    {
+        $('#btfunicular2').css("display", "flex");
+        $('#btfunicular1').toggle();
+        $('#funicularsip').css("color", "#7EAF15").css("transition", "0.5s");
+        $('#funicular').toggle();
+    });
+
+    $('#btfunicular2').on('click', function()
+    {
+        $('#btfunicular2').css("display", "none");
+        $('#btfunicular1').toggle();
+        $('#funicularsip').css("color", "white").css("transition", "0.5s");
+        $('#funicular').toggle();
+    });
+    // end cargo
+
+
+    // crane
+    // towercrane
+    $('#bttowercrane1').on('click', function()
+    {
+        $('#bttowercrane2').css("display", "flex");
+        $('#bttowercrane1').toggle();
+        $('#towercranesip').css("color", "#7EAF15").css("transition", "0.5s");
+        $('#towercrane').toggle();
+    });
+
+    $('#bttowercrane2').on('click', function()
+    {
+        $('#bttowercrane2').css("display", "none");
+        $('#bttowercrane1').toggle();
+        $('#towercranesip').css("color", "white").css("transition", "0.5s");
+        $('#towercrane').toggle();
+    });
+    // overcrane
+    $('#btovercrane1').on('click', function()
+    {
+        $('#btovercrane2').css("display", "flex");
+        $('#btovercrane1').toggle();
+        $('#overcranesip').css("color", "#7EAF15").css("transition", "0.5s");
+        $('#overcrane').toggle();
+    });
+
+    $('#btovercrane2').on('click', function()
+    {
+        $('#btovercrane2').css("display", "none");
+        $('#btovercrane1').toggle();
+        $('#overcranesip').css("color", "white").css("transition", "0.5s");
+        $('#overcrane').toggle();
+    });
+    // end crane
+
+    // bridge horse
+    // bridge
+    $('#btbridge1').on('click', function()
+    {
+        $('#btbridge2').css("display", "flex");
+        $('#btbridge1').toggle();
+        $('#bridgesip').css("color", "#7EAF15").css("transition", "0.5s");
+        $('#bridge').toggle();
+    });
+
+    $('#btbridge2').on('click', function()
+    {
+        $('#btbridge2').css("display", "none");
+        $('#btbridge1').toggle();
+        $('#bridgesip').css("color", "white").css("transition", "0.5s");
+        $('#bridge').toggle();
+    });
+    // horse 
+    $('#bthorse1').on('click', function()
+    {
+        $('#bthorse2').css("display", "flex");
+        $('#bthorse1').toggle();
+        $('#horsesip').css("color", "#7EAF15").css("transition", "0.5s");
+        $('#horse').toggle();
+    });
+
+    $('#bthorse2').on('click', function()
+    {
+        $('#bthorse2').css("display", "none");
+        $('#bthorse1').toggle();
+        $('#horsesip').css("color", "white").css("transition", "0.5s");
+        $('#horse').toggle();
+    });
+    // end bridge horse
+
+
+
 });
 
 // $(document).ready(function () {
