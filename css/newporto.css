@@ -28,11 +28,48 @@
     margin-left: 88px; */
 }
 
+.project .villa .allvilla .ubud
+{
+    margin-bottom: 48px;
+    width: 100%;
+}
+.project .villa .allvilla .ubud .villatext .villatext2
+{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 32px;
+    color: #FFFFFF;
+} 
+.project .villa .allvilla .ubud .villatext .villatext1 span 
+{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 32px;
+}
+.project .villa .allvilla .ubud .villatext .villatext1 span p
+{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 32px;
+}
 .project .villa .allvilla .button
 {
     /* width: 32px;
     height: 32px;
     background-color: #272727; */
+    border-bottom: 1px solid grey;
+    border-width: 100%;
+    width: 100%;
+    margin-top: 28px;
+    margin-bottom: 28px;
 }
 
 .project .villa .allvilla .button button
@@ -62,6 +99,47 @@
 {
     display: none;
 }
+.project .villa .allvilla .button #btsaint2
+{
+    display: none;
+}
+.project .villa .allvilla .button #btfashion2
+{
+    display: none;
+}
+.project .villa .allvilla .button #btnakar2
+{
+    display: none;
+}
+.project .villa .allvilla .button #btdore2
+{
+    display: none;
+}
+.project .villa .allvilla .button #btfullmoon2
+{
+    display: none;
+}
+.project .villa .allvilla .button #btsecret2
+{
+    display: none;
+}
+.project .villa .allvilla .button #btnoname2
+{
+    display: none;
+}
+.project .villa .allvilla .button #btvittorio2
+{
+    display: none;
+}
+.project .villa .allvilla .button #btdreamland2
+{
+    display: none;
+}
+.project .villa .allvilla .button #btroxy2
+{
+    display: none;
+}
+
 
 .project .villa .allvilla .button span
 {
