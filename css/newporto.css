@@ -1,3 +1,32 @@
+.project .villa .tit
+{
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+}
+
+.project .villa .allvilla .villatext
+{
+    margin-top: 1%;
+}
+
+
+.project .villa .tit #cargokiri
+{
+    border: 1px solid #7EAF15;
+    border-bottom: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    width:  25%;
+}
+.project .villa .tit #cargokanan
+{
+    border: 1px solid #7EAF15;
+    border-bottom: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    width:  25%;
+}
+
 .project .villa .tit .gariskiri
 {
     border: 1px solid #7EAF15;
@@ -161,6 +190,27 @@
     display: none;
 }
 
+/* crane */
+.project .villa .allvilla .button #bttowercrane2
+{
+    display: none;
+}
+.project .villa .allvilla .button #btovercrane2
+{
+    display: none;
+}
+
+/* bridge */
+.project .villa .allvilla .button #btbridge2
+{
+    display: none;
+}
+.project .villa .allvilla .button #bthorse2
+{
+    display: none;
+}
+
+
 
 .project .villa .allvilla .button span
 {
@@ -228,6 +278,23 @@
     .project .villa .allvilla .button span
     {
         font-size: 18px;
+    }
+
+    .project .villa .tit #jembatankiri
+    {
+        border: 1px solid #7EAF15;
+        border-bottom: 0px;
+        border-right: 0px;
+        border-left: 0px;
+        width:  10%;
+    }
+    .project .villa .tit #jembatankanan
+    {
+        border: 1px solid #7EAF15;
+        border-bottom: 0px;
+        border-right: 0px;
+        border-left: 0px;
+        width:  10%;
     }
 }
 

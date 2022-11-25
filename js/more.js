@@ -312,6 +312,79 @@ $(document).ready(function () {
     });
     // end cargo
 
+
+    // crane
+    // towercrane
+    $('#bttowercrane1').on('click', function()
+    {
+        $('#bttowercrane2').css("display", "flex");
+        $('#bttowercrane1').toggle();
+        $('#towercranesip').css("color", "#7EAF15").css("transition", "0.5s");
+        $('#towercrane').toggle();
+    });
+
+    $('#bttowercrane2').on('click', function()
+    {
+        $('#bttowercrane2').css("display", "none");
+        $('#bttowercrane1').toggle();
+        $('#towercranesip').css("color", "white").css("transition", "0.5s");
+        $('#towercrane').toggle();
+    });
+    // overcrane
+    $('#btovercrane1').on('click', function()
+    {
+        $('#btovercrane2').css("display", "flex");
+        $('#btovercrane1').toggle();
+        $('#overcranesip').css("color", "#7EAF15").css("transition", "0.5s");
+        $('#overcrane').toggle();
+    });
+
+    $('#btovercrane2').on('click', function()
+    {
+        $('#btovercrane2').css("display", "none");
+        $('#btovercrane1').toggle();
+        $('#overcranesip').css("color", "white").css("transition", "0.5s");
+        $('#overcrane').toggle();
+    });
+    // end crane
+
+    // bridge horse
+    // bridge
+    $('#btbridge1').on('click', function()
+    {
+        $('#btbridge2').css("display", "flex");
+        $('#btbridge1').toggle();
+        $('#bridgesip').css("color", "#7EAF15").css("transition", "0.5s");
+        $('#bridge').toggle();
+    });
+
+    $('#btbridge2').on('click', function()
+    {
+        $('#btbridge2').css("display", "none");
+        $('#btbridge1').toggle();
+        $('#bridgesip').css("color", "white").css("transition", "0.5s");
+        $('#bridge').toggle();
+    });
+    // horse 
+    $('#bthorse1').on('click', function()
+    {
+        $('#bthorse2').css("display", "flex");
+        $('#bthorse1').toggle();
+        $('#horsesip').css("color", "#7EAF15").css("transition", "0.5s");
+        $('#horse').toggle();
+    });
+
+    $('#bthorse2').on('click', function()
+    {
+        $('#bthorse2').css("display", "none");
+        $('#bthorse1').toggle();
+        $('#horsesip').css("color", "white").css("transition", "0.5s");
+        $('#horse').toggle();
+    });
+    // end bridge horse
+
+
+
 });
 
 // $(document).ready(function () {
