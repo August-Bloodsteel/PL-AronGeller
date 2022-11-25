@@ -226,6 +226,92 @@ $(document).ready(function () {
         $('#roxy').toggle();
     });
 
+
+    // cargo
+
+    // cargolift
+    $('#btcargolift1').on('click', function()
+    {
+        $('#btcargolift2').css("display", "flex");
+        $('#btcargolift1').toggle();
+        $('#cargoliftsip').css("color", "#7EAF15").css("transition", "0.5s");
+        $('#cargolift').toggle();
+    });
+
+    $('#btcargolift2').on('click', function()
+    {
+        $('#btcargolift2').css("display", "none");
+        $('#btcargolift1').toggle();
+        $('#cargoliftsip').css("color", "white").css("transition", "0.5s");
+        $('#cargolift').toggle();
+    });
+
+    // cargo15
+    $('#btcargo151').on('click', function()
+    {
+        $('#btcargo152').css("display", "flex");
+        $('#btcargo151').toggle();
+        $('#cargo15sip').css("color", "#7EAF15").css("transition", "0.5s");
+        $('#cargo15').toggle();
+    });
+
+    $('#btcargo152').on('click', function()
+    {
+        $('#btcargo152').css("display", "none");
+        $('#btcargo151').toggle();
+        $('#cargo15sip').css("color", "white").css("transition", "0.5s");
+        $('#cargo15').toggle();
+    });
+    // cargo25
+    $('#btcargo251').on('click', function()
+    {
+        $('#btcargo252').css("display", "flex");
+        $('#btcargo251').toggle();
+        $('#cargo25sip').css("color", "#7EAF15").css("transition", "0.5s");
+        $('#cargo25').toggle();
+    });
+
+    $('#btcargo252').on('click', function()
+    {
+        $('#btcargo252').css("display", "none");
+        $('#btcargo251').toggle();
+        $('#cargo25sip').css("color", "white").css("transition", "0.5s");
+        $('#cargo25').toggle();
+    });
+    // cargo300
+    $('#btcargo3001').on('click', function()
+    {
+        $('#btcargo3002').css("display", "flex");
+        $('#btcargo3001').toggle();
+        $('#cargo300sip').css("color", "#7EAF15").css("transition", "0.5s");
+        $('#cargo300').toggle();
+    });
+
+    $('#btcargo3002').on('click', function()
+    {
+        $('#btcargo3002').css("display", "none");
+        $('#btcargo3001').toggle();
+        $('#cargo300sip').css("color", "white").css("transition", "0.5s");
+        $('#cargo300').toggle();
+    });
+    // funicular
+    $('#btfunicular1').on('click', function()
+    {
+        $('#btfunicular2').css("display", "flex");
+        $('#btfunicular1').toggle();
+        $('#funicularsip').css("color", "#7EAF15").css("transition", "0.5s");
+        $('#funicular').toggle();
+    });
+
+    $('#btfunicular2').on('click', function()
+    {
+        $('#btfunicular2').css("display", "none");
+        $('#btfunicular1').toggle();
+        $('#funicularsip').css("color", "white").css("transition", "0.5s");
+        $('#funicular').toggle();
+    });
+    // end cargo
+
 });
 
 // $(document).ready(function () {
