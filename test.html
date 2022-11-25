@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+ <html>
+ <head>
+  <title>Cara Membuat Translate Pada Web - Denny ID</title>
+ </head>
+
+ <link rel="stylesheet" href="./css/style.css">
+ <link rel="stylesheet" href="./css/bootstrap.min.css">
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=IBM+Plex+Sans:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">        
+
+ <body>
+
+  <!-- <select onchange="doGTranslate(this);" class="lg"> 
+         <option>Select Language</option>                
+   <option value="ru|ru" ></i> Russia</option>
+         <option value="id|id" >Indonesia</option> 
+     </select>
+
+     <div id="google_translate_element2"></div>
+    
+     <br>
+     <br> -->
+
+<!-- ============================ Start Navbar Section ============================ -->
+
+
+
+
+
+  <nav class="navbar navbar-expand-lg">
+
+
+
+  <div class="container bb">
+
+    <div id="google_translate_element2"></div>
+
+ 
+    <!-- Navbar Logo -->
+    <div class="nav--logo d-flex d-lg-none">
+      <a class="navbar--brand" href="../index.html"><img src="https://gdurl.com/tM2m" alt="Aron Geller" class="logo"></a>
+    </div>
+
+    <!-- Container For Responsive -->
+    <div id="navHolder" class="nav--holder d-flex flex-lg-row flex-column justify-content-between align-items-start align-items-sm-center">
+      <!-- For XL  -->
+      <div class="nav--logo d-lg-flex d-none">
+        <a class="navbar--brand" href="./index.html"><img src="https://gdurl.com/tM2m" alt="Aron Geller" class="logo"></a>
+      </div>
+      <!-- Middle Navigation -->
+      <div class="content--nav">
+
+        <ul class="navbar-nav mid d-flex align-items-start align-items-sm-center">
+                
+          <li class="nav-item">
+            <a class="nav-link active" id="index" href="index.html">Home</a>
+          </li>
+    
+          <li class="nav-item">
+            <a class="nav-link" id="works" href="./work/indexwork.html">Work</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" id="porto" href="./portofolio/indexporto.html">Portofolio</a>
+          </li>
+      
+          <li class="nav-item">
+            <a class="nav-link" id="archi" href="./architecture/architectureindex.html">Architecture</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" id="review" href="./reviews/indexreviews.html">Reviews</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" id="news" href="./news/newsindex.html">News</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" id="contact" href="./contact/contactindex.html">Contact</a>
+          </li>
+          
+        </ul>
+    
+      </div> 
+
+      <!-- Language Navigation -->
+      <select onchange="doGTranslate(this);" class="lg"> 
+        <option>Select Language</option>                
+      <option value="en|ru" ></i> Russia</option>
+        <option value="en|en" >English</option> 
+      </select>
+    </div>
+    
+
+    <button class="btn--nav d-block d-lg-none" id="btnNav" onclick="btnChange()"></button>
+   
+  </div>
+</nav>
+<!-- ============================ End Navbar Section ============================ -->
+
+
+<div class="header d-none d-xl-block"  style=" z-index: -10; margin-top: 0px;"> 
+
+    <div class="d-flex justify-content-center">
+        <div class=" container col-xl-12 headertext d-flex align-items-center" style="z-index: 4; width: 100vw; height: 100vh; position: absolute;">
+
+            <div class="wrap-design  ">
+                <div class="design d-flex align-items-center justify-content-center">
+                    <div class="wraptextdesign">
+                        <div class="arrow" style="position: absolute; margin-top: -80px; margin-left: 80px;">
+                            <img src="img/Arrow1.svg" alt="" data-aos="fade-up"> 
+                        </div>
+
+                        <div class="textdesign" style="position: absolute;">
+                            <h1 style="text-transform: uppercase;" data-aos="fade-up">design and build <br>
+                                Villas and Houses <br>
+                                in Bali</h1>
+                                <div class="hit d-flex align-items-center justify-content-center" data-aos="fade-up">
+                                    <a href="" > <i class="iconify" data-icon="bi:arrow-right-short"></i>  Hit Me Up! </a> 
+                                </div>
+                            
+
+                                <div class="headernum d-flex justify-content-center">
+                                    <div class="headnumber text-center" id="headnum1">
+                                        <span class="num" data-val="12">00</span>
+                                        <h5>Years of construction <br>
+                                            in Indonesia</h5>
+                                    </div>
+                                    <div class="headnumber text-center" id="headnum1">
+                                        <span class="num" data-val="72">00</span>
+                                        <h5>Employees</h5>
+                                    </div>
+                                    <div class="headnumber text-center" id="headnum1">
+                                        <span class="num" data-val="23">00</span>
+                                        <h5>Construction projects put <br>
+                                            into operation</h5>
+                                    </div>
+                                    <div class="headnumber text-center" id="headnum1">
+                                        <span class="num" data-val="3">0</span>
+                                        <h5>Awards</h5>
+                                    </div>
+                                    <div class="headnumber text-center" id="headnum2">
+                                        <span class="num" data-val="2">0</span>
+                                        <h5>Hectares production <br>
+                                            space</h5>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div> 
+
+        <div class="wrapbanner">
+            
+            <div class="banner1 col-xl-12 d-flex justify-content-center" >
+                <img src="img/banner1.jpg" alt="">
+            </div>
+
+            <div class="wrapbanner23 d-flex">
+
+
+                <div class="banner2 col-xl-6 d-flex flex-column">
+                    <div class="change" >
+                        <div class="life" style="background-color: red;">
+                            <img src="img/Arrow3.svg" alt="">
+                            <h1 >TO CHANGE YOUR LIFE</h1>
+                            <div class="see d-flex justify-content-center align-items-center">
+                                <a href=""><i class="iconify" data-icon="bi:arrow-right-short"></i>Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <img src="img2/desktop 1.jpg" alt="" id="banner2">
+                     <img src="img2/desktop 3.jpg" alt="" id="banner3">
+
+                </div>
+
+                <div class="banner45 col-xl-6 d-flex flex-column align-items-end" >
+                    <div class="port col-xl-3" style=" position: absolute;">
+                        <div class="folio">
+                            <h1>PORTOFOLIO</h1>
+                            <div class="port-learn d-flex justify-content-center align-items-center">
+                                <a href="./portofolio/indexporto.html"><i class="iconify" data-icon="bi:arrow-right-short"></i>Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="arrow2">
+                        <img src="img/Arrow2.svg" alt="">
+                    </div>
+                    <img src="img2/desktop 4.jpg" alt="" id="banner4">
+                </div>
+              
+            </div>
+
+            <div class="wrapbanner567 d-flex">
+                <div class="banner5 col-xl-6" >
+                    <div class="wrapaward" >
+                        <div class="arrowarsitek">
+                            <img src="img/Arrow6.svg" alt="">
+                        </div>
+                        <div class="award d-flex flex-column align-items-start" style="position: absolute;">
+                            <h1>Architecture</h1>
+                            <div class="learn d-flex justify-content-center align-items-center">
+                                <a href="./architecture/architectureindex.html"><i class="iconify" data-icon="bi:arrow-right-short"></i>Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="img2/desktop 5.jpg" alt="" id="g-5">
+                </div>
+
+                <div class="banner67 col-xl-6">
+                    <img src="img2/desktop 2.JPG"  alt="" id="g-6">
+                    <img src="img2/desktop 6.jpg" alt="" id="g-7">
+                </div>
+            </div>
+
+
+            
+
+        </div>
+
+    </div>
+
+
+
+<div class="header-mobile d-block d-xl-none">
+<div class="wrap-m">
+
+<div class="m1 col-12 d-flex flex-column justify-content-end">
+        <div class="we-m col-12 ">
+            <img class="panahwe" src="img/Arrow1.svg" alt="">
+            <h1>design and <br> build
+               <br> Villas and <br> Houses
+               <br> in Bali</h1>
+
+
+    </div>
+
+    <img class="gm1" src="img2/mobile 1.jpg" alt="" >
+</div>
+
+<div class="m2 col-12 d-flex align-items-center">
+    <div class="num-m d-flex flex-column justify-content-center">
+        
+        <div class="headnum-m d-flex align-items-center">
+            <span class="num" data-val="12">00</span>
+            <h5>Years of construction <br>
+                in Indonesia</h5>
+        </div>
+
+        <div class="headnum-m d-flex align-items-center">
+             <span class="num" data-val="72">00</span>
+             <h5>Employees</h5>
+        </div>
+
+        <div class="headnum-m d-flex align-items-center">
+            <span class="num" data-val="23">00</span>
+            <h5>Construction projects put <br>
+                into operation</h5>
+        </div>
+
+        <div class="headnum-m d-flex align-items-center">
+            <span class="num" data-val="3">0</span>
+            <h5>Awards</h5>
+        </div>
+
+        <div class="headnum-m d-flex align-items-center">
+            <span class="num" data-val="2">0</span>
+            <h5>Hectares production <br>
+                space</h5>
+        </div>
+
+    </div>
+
+
+    <img src="img2/mobile 2.jpg" alt="" style=" width:100%; height:auto; border-bottom: 0.01px solid rgba(255, 255, 255, 0.10);">
+</div>
+
+<div class="m3 col-12 d-flex flex-column justify-content-end">
+    <div class="hit-m d-flex justify-content-start">
+        <div class="up-m d-flex justify-content-center align-items-center">
+            <a href=""><i class="iconify" data-icon="bi:arrow-right-short"></i>Hit Me Up!</a>
+        </div>
+    </div>
+    <img src="img2/mobile 3.JPG"  alt="" style=" width:100%; height:auto; border-bottom: 0.01px solid rgba(255, 255, 255, 0.10);">
+</div>
+
+<div class="m4 col-12 d-flex flex-column justify-content-end align-items-start ">
+<div class="d-flex justify-content-start "> 
+    <div class="change-m d-flex flex-column container align-items-start justify-content-center" id="change-m-1">
+        <img class="bulet" src="img/Arrow3.svg" alt="">
+        <h1>To change your life</h1>
+    </div>
+
+    <div class="see-m d-flex justify-content-center align-items-center" id="see-m-1">
+        <a href="./portofolio/indexporto.html"><i class="iconify" data-icon="bi:arrow-right-short"></i>See Portofolio</a>
+    </div>
+</div>
+
+    <img src="img2/mobile 4.jpg" alt="" style=" width:100%; height:auto; border-bottom: 0.01px solid rgba(255, 255, 255, 0.10);">
+</div>
+
+<div class="m4 col-12 d-flex flex-column justify-content-end align-items-start">
+<div class="d-flex justify-content-start "> 
+    <div class="change-m d-flex flex-column align-items-start container justify-content-center" id="change-m-2">
+        <img class="arsi" src="img/Arrow6.svg" alt="" id="arsi">
+        <h1>Architecture</h1>
+    </div>
+
+    <div class="see-m d-flex justify-content-center align-items-center" id="see-m-2">
+        <a href="./architecture/architectureindex.html"><i class="iconify" data-icon="bi:arrow-right-short"></i>Learn More</a>
+    </div>
+</div>
+    <img src="img2/mobile 5.jpg" alt="" style=" width:100%; height:auto; border-bottom: 0.01px solid rgba(255, 255, 255, 0.10);">
+</div>
+
+
+<!-- <div class="m6 col-12">
+    <img src="img/mobile6.JPG" alt="" style=" width:100%; height:auto; border-bottom: 0.01px solid rgba(255, 255, 255, 0.10);">
+</div> -->
+</div>
+</div>
+
+
+
+
+<script src="js/number.js"></script>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+$(document).ready( function() {
+AOS.init();
+});
+</script>
+
+
+
+<!-- ============================ Start Script Area ============================ -->
+
+<script>
+  $( document ).ready(function() {
+    var $navbar = $('.navbar');
+    $(window).scroll(function(event)
+    {
+      console.log(event)
+      var $current = $(this).scrollTop();
+      if($current > 0)
+      {
+        $navbar.addClass('navbar-color')
+      }
+      else
+      {
+        $navbar.removeClass('navbar-color')
+      }
+    })
+})
+</script>
+
+
+<script>
+
+  let btnNav = document.getElementById("btnNav")
+  let navHolder = document.getElementById("navHolder")
+  btnNav.innerText = "MENU"
+
+  function btnChange(){
+    btnNav.classList.toggle ("toggled")
+
+    if(btnNav.classList == "btn--nav d-block d-lg-none toggled"){
+      btnNav.innerText = "CLOSE"
+      navHolder.style.top = "10vh"
+      navHolder.style.borderRadius = "0rem 0rem 0rem 0rem"
+    } else {
+      btnNav.innerText = "MENU"
+      navHolder.style.top = "-90vh"
+      navHolder.style.borderRadius = "0rem 0rem 50% 50%"
+    }
+  }
+
+</script>
+
+
+<script type="text/javascript" src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit2"></script>
+<script type="text/javascript"> 
+ function googleTranslateElementInit2() {
+  new google.translate.TranslateElement(
+  {
+   pageLanguage: 'indonesia',
+   autoDisplay: false
+  },
+
+  'google_translate_element2');
+ }
+
+ function GTranslateFireEvent(element,event){
+  try{
+   if(document.createEventObject){
+    var evt=document.createEventObject();
+    element.fireEvent('on'+event,evt)
+   }   
+   else{
+    var evt=document.createEvent('HTMLEvents');
+    evt.initEvent(event,true,true);
+    element.dispatchEvent(evt)
+   }
+  }
+  catch(e){}
+ }
+
+ function doGTranslate(lang_pair){
+  if(lang_pair.value)lang_pair=lang_pair.value;
+  if(lang_pair=='')return;
+   var lang=lang_pair.split('|')[1];
+   var teCombo;
+   var sel=document.getElementsByTagName('a');
+  for(var i=0;i<sel.length;i++)
+   if(sel[i].className=='goog-te-combo')teCombo=sel[i];
+   if(document.getElementById('google_translate_element2')==null||document.getElementById('google_translate_element2').innerHTML.length==0||teCombo.length==0||teCombo.innerHTML.length==0)
+   {
+    setTimeout(function(){doGTranslate(lang_pair)},500)
+   }
+   else{
+    teCombo.value=lang;GTranslateFireEvent(teCombo,'change');
+    GTranslateFireEvent(teCombo,'change')
+   }
+ }
+</script>
+<!-- ============================ End Script Area ============================ -->
+
+
+     <!-- javascript -->
+  <script type="text/javascript" src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit2"></script>
+  <script type="text/javascript"> 
+   function googleTranslateElementInit2() {
+    new google.translate.TranslateElement(
+    {
+     pageLanguage: 'id',
+     autoDisplay: false
+    },
+
+    'google_translate_element2');
+   }
+
+   function GTranslateFireEvent(element,event){
+    try{
+     if(document.createEventObject){
+      var evt=document.createEventObject();
+      element.fireEvent('on'+event,evt)
+     }   
+     else{
+      var evt=document.createEvent('HTMLEvents');
+      evt.initEvent(event,true,true);
+      element.dispatchEvent(evt)
+     }
+    }
+    catch(e){}
+   }
+
+   function doGTranslate(lang_pair){
+    if(lang_pair.value)lang_pair=lang_pair.value;
+    if(lang_pair=='')return;
+     var lang=lang_pair.split('|')[1];
+     var teCombo;
+     var sel=document.getElementsByTagName('select');
+    for(var i=0;i<sel.length;i++)
+     if(sel[i].className=='goog-te-combo')teCombo=sel[i];
+     if(document.getElementById('google_translate_element2')==null||document.getElementById('google_translate_element2').innerHTML.length==0||teCombo.length==0||teCombo.innerHTML.length==0)
+     {
+      setTimeout(function(){doGTranslate(lang_pair)},500)
+     }
+     else{
+      teCombo.value=lang;GTranslateFireEvent(teCombo,'change');
+      GTranslateFireEvent(teCombo,'change')
+     }
+   }
+  </script>
+  </body>
+ </html> 
